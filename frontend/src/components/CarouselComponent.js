@@ -2,10 +2,8 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import { cousel } from '../utils/navItem';
 
-
-const CarouselComponent = ({ slides }) => {
+const CarouselComponent = ({cousel}) => {
   const settings = {
     dots: true,
     infinite: true,
@@ -17,7 +15,7 @@ const CarouselComponent = ({ slides }) => {
     // centerMode: true,           // Enable center mode
     // centerPadding: '-10',     
   };
-
+  
   return (
     <div className='w-7/12 mx-auto m-10'>
       <Slider {...settings}>

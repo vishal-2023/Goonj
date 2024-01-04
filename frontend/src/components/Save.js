@@ -12,7 +12,7 @@ const Save = (props) => {
     
 
   return (
-    <div className='overflow-hidden mx-auto'>
+    <div className='overflow-hidden hover:scale-95'>
         <Link to={props.dir}>
             <img style={imgStyle} className='border-2' src={props.imgdata} alt=''/>
             <div className='text-base font-medium w-72 flex items-center justify-center  break-all '>{props.data}</div>

@@ -1209,3 +1209,161 @@ export const tab=[
     //     subdata3:"Goonj’s alternative model of development is very much replicable in any part of the world especially south east Asian countries given the similar problems of poverty, health, education and disaster. If you have plan to replicate Goonj’s work, do spend time at our processing units and then in the field with our team to understand the complexities around the idea and implementation. Do write to us at mail@goonj.org sharing your plans."
     // }
 ]
+
+export const fellowImg=[
+    {
+        id:1,
+        img:"https://goonj.org/wp-content/uploads/2021/12/Akho2019-20-s2s-activity-i-Maharashtra-1536x1152.jpg",
+    },
+    {
+        id:2,
+        img:"https://goonj.org/wp-content/uploads/2021/12/IMG-20210224-WA0011.jpg",
+    },
+    {
+        id:3,
+        img:"https://goonj.org/wp-content/uploads/2021/12/DBA9CDE4-0A9A-450A-B381-247313289410-Arpita-Goonj-Fellow-1-1536x2048.jpeg"
+    },
+    {
+        id:4,
+        img:"https://goonj.org/wp-content/uploads/2021/12/Interaction-with-DFW-beneficiaries-in-Ranipur.jpg",
+    },
+]
+
+export const GlimpsImg=[
+    {
+        id:1,
+        imgdata:"https://goonj.org/wp-content/uploads/2022/12/G8-1024x473.jpg",
+        imgHeight:"12rem",
+    },
+    {
+        id:2,
+        imgdata:"https://goonj.org/wp-content/uploads/2022/12/G7.jpg",
+        imgHeight:"15rem",
+    },
+    {
+        id:3,
+        imgdata:"https://goonj.org/wp-content/uploads/2022/12/G6.jpg",
+        imgHeight:"15rem",
+    },
+    {
+        id:4,
+        imgdata:"https://goonj.org/wp-content/uploads/2022/12/G5-1024x576.jpg",
+        imgHeight:"15rem",
+    },
+    {
+        id:5,
+        imgdata:"https://goonj.org/wp-content/uploads/2022/12/G4-1024x461.jpg",
+        imgHeight:"12rem",
+
+    },
+    {
+        id:6,
+        imgdata:"https://goonj.org/wp-content/uploads/2022/12/G3-1024x1024.jpg",
+        imgHeight:"18rem",
+    },
+    {
+        id:7,
+        imgdata:"https://goonj.org/wp-content/uploads/2022/12/G2-1024x1024.jpg",
+        imgHeight:"18rem",
+
+    },
+    {
+        id:8,
+        imgdata:"https://goonj.org/wp-content/uploads/2022/12/G1-1024x1024.jpg",
+        imgHeight:"18rem",
+
+    },
+]
+
+export const GoonjImg=[
+    {
+        id:1,
+        imgdata:'https://goonj.org/wp-content/uploads/2023/05/fellow_testamonials1b-copy5a-360x360.jpg',
+    },
+    {
+        id:2,
+        imgdata:'https://goonj.org/wp-content/uploads/2023/05/fellow_testamonials1b-copy4a-1-360x360.jpg',
+    },
+    {
+        id:3,
+        imgdata:'https://goonj.org/wp-content/uploads/2023/05/fellow_testamonials1b-copy3a.jpg',
+    },
+    {
+        id:4,
+        imgdata:'https://goonj.org/wp-content/uploads/2023/05/1-fellow_testamonials-360x360.jpg',
+    },
+    {
+        id:5,
+        imgdata:'https://goonj.org/wp-content/uploads/2023/05/3-fellow_testamonials-360x360.jpg',
+    },
+    {
+        id:6,
+        imgdata:'https://goonj.org/wp-content/uploads/2023/05/fellow_testamonials1b-copy-360x360.jpg',
+    },
+    {
+        id:7,
+        imgdata:'https://goonj.org/wp-content/uploads/2023/05/fellow_testamonials1b-copy6-360x360.jpg',
+    },
+    {
+        id:8,
+        imgdata:'https://goonj.org/wp-content/uploads/2023/05/fellow_testamonials8b-copy-1-360x360.jpg',
+    },
+    {
+        id:9,
+        imgdata:'https://goonj.org/wp-content/uploads/2022/12/F11-1024x1024.jpg',
+    },
+    {
+        id:10,
+        imgdata:'https://goonj.org/wp-content/uploads/2022/12/F10.png',
+    },
+    {
+        id:11,
+        imgdata:'https://goonj.org/wp-content/uploads/2022/12/F9-768x768.jpg',
+    },
+    {
+        id:12,
+        imgdata:'https://goonj.org/wp-content/uploads/2022/12/F8-1024x1024.jpg  ',
+    },
+    {
+        id:13,
+        imgdata:'https://goonj.org/wp-content/uploads/2022/12/F7.png',
+    },
+    {
+        id:14,
+        imgdata:'https://goonj.org/wp-content/uploads/2022/12/F6.jpg',
+    },
+    {
+        id:15,
+        imgdata:'https://goonj.org/wp-content/uploads/2022/12/F5.jpg',
+    },
+    {
+        id:16,
+        imgdata:'https://goonj.org/wp-content/uploads/2022/12/F4.png',
+    },
+    {
+        id:17,
+        imgdata:'https://goonj.org/wp-content/uploads/2022/12/F3-360x360.jpg',
+    },
+    {
+        id:18,
+        imgdata:'https://goonj.org/wp-content/uploads/2022/12/F2-1024x1024.png',
+    },
+    {
+        id:19,
+        imgdata:'https://goonj.org/wp-content/uploads/2022/12/F1-768x768.jpg',
+    },
+    {
+        id:20,
+        imgdata:'https://goonj.org/wp-content/uploads/2023/05/4-QR-CODE-360x360.jpg',
+    },
+
+]
+
+const Fellowdata=[
+    {
+        id:1,
+        imgdata:"https://goonj.org/wp-content/uploads/2022/04/Goonj-fellowship-3.jpg",
+        title:"Goonj Urban Fellowship",
+        data:"Goonj Urban Fellowship started with the aim to provide urban youth, usually isolated from the rural realities, exposure to the issues of urban and rural India some amazing work in rural India. Our aim was also to stand with them, nudging for their capacity building, fundraising and cross learning work, in a year long journey."
+    }
+]

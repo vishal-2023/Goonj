@@ -15,6 +15,8 @@ import Dummy from './pages/Impact/Dummy.js';
 import Volunteer from './pages/getInvolved/Volunteer.js';
 import Internship from './pages/getInvolved/Internship.js';
 import Partner from './pages/getInvolved/Partner.js';
+import Fellowship from './pages/getInvolved/Fellowship.js';
+import Baithak from './pages/getInvolved/Baithak.js';
 
 function App() {
   return (
@@ -35,6 +37,8 @@ function App() {
         <Route path='/volunteer/' element={<Volunteer/>}></Route>
         <Route path='/internship/' element={<Internship/>}></Route>
         <Route path='/partner-with-us/' element={<Partner/>} />
+        <Route path='/goonj-fellowship/' element={<Fellowship/>}></Route>
+        <Route path='/baithak/' element={<Baithak/>}></Route>
       </Routes>
       
     </div>

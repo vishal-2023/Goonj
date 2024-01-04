@@ -8,25 +8,16 @@ import { Gallery, faq, model } from '../../utils/navItem';
 import Model from '../../components/Model';
 import Collapsible from 'react-collapsible';
 import Save from '../../components/Save';
+import { cousel } from '../../utils/navItem';
+
 
 const Internship = () => {
 
     const [value1,setValue1]= useState(false);
     const [value,setValue]= useState(false);
 
-    const [isClicked, setIsClicked] = useState(false);
 
-    const handleClick = () => {
-      setIsClicked(!isClicked);
-    };
-
-    const textStyle = {
-      
-      // Define your styles here
-      color: isClicked ? 'red' : 'blue',
-      fontWeight: isClicked ? 'bold' : 'normal',
-      // Add more styles as needed
-    };
+    
 
   return (
     <div className=" overflow-hidden">
@@ -71,7 +62,7 @@ const Internship = () => {
         
     <div className='w-full m-4 flex flex-col items-center'>
       <h1 className='text-2xl  font-semibold'>Hear From Our Previous Interns</h1>
-      <CarouselComponent />
+      <CarouselComponent cousel={cousel} />
     </div>
     
       <div className='flex flex-col items-center gap-7 flex-wrap mx-5'>
@@ -83,7 +74,7 @@ const Internship = () => {
          </div>
           <div className='flex flex-row w-11/12 px-10 flex-wrap items-center justify-center mx-auto gap-5'>
             <div className='mx-auto my-8 text-2xl font-semibold'>Photo Gallery</div>
-            <div className='flex flex-row mx-auto w-full flex-wrap'>
+            <div className='flex flex-row  ml-20 w-full flex-wrap'>
             {
               Gallery.map((item)=>{
                 return <Save className="" index={item.id} {...item} />
