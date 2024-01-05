@@ -19,6 +19,7 @@ import Fellowship from './pages/getInvolved/Fellowship.js';
 import Baithak from './pages/getInvolved/Baithak.js';
 import Carrer from './pages/getInvolved/Carrer.js';
 import Recycle from './pages/getInvolved/Recycle.js';
+import Joy from './pages/getInvolved/Joy.js';
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
         <Route path='/baithak/' element={<Baithak/>}></Route>
         <Route path='/career/' element={<Carrer/>} />
         <Route path='/khushiyon-ka-recycle/' element={<Recycle/>} />
+        <Route path='/joy-of-giving-2023/' element={<Joy/>} />
       </Routes>
       
     </div>
