@@ -1367,3 +1367,111 @@ const Fellowdata=[
         data:"Goonj Urban Fellowship started with the aim to provide urban youth, usually isolated from the rural realities, exposure to the issues of urban and rural India some amazing work in rural India. Our aim was also to stand with them, nudging for their capacity building, fundraising and cross learning work, in a year long journey."
     }
 ]
+
+export const carrerdata = [
+    {
+        id:1,
+        imgdata:'https://goonj.org/wp-content/uploads/2021/01/Career-Slider1.jpg',
+        
+    },
+    {
+        id:2,
+        imgdata:'https://goonj.org/wp-content/uploads/2019/10/fellowship-group-image.jpg',
+    },
+    {
+        id:3,
+        imgdata:'https://goonj.org/wp-content/uploads/2017/01/Team-goonj.jpg',
+    },
+    {
+        id:4,
+        imgdata:'https://goonj.org/wp-content/uploads/2019/05/DSC7084.jpg',
+    },
+    {
+        id:5,
+        imgdata:'https://goonj.org/wp-content/uploads/2020/01/Goonj-Delhi-Photos-20th-Anniverasry-2019-507.jpg',
+    }
+]
+
+
+export const GroundImg1=[
+    {
+        id:1,
+        imgdata:'https://goonj.org/wp-content/uploads/2023/03/Activity-3-1156x700.jpg',
+        imgHeight:'13rem',
+    },
+    {
+        id:2,
+        imgdata:'https://goonj.org/wp-content/uploads/2023/03/S2S-Pictures-960x700.jpg',
+        imgHeight:'13rem',
+    },
+    {
+        id:3,
+        imgdata:'https://goonj.org/wp-content/uploads/2023/03/S2S-Shoes-distribution-1-1160x700.jpg',
+        imgHeight:'13rem',
+    },
+    {
+        id:4,
+        imgdata:'https://goonj.org/wp-content/uploads/2023/03/S2S-activities-with-children-and-distribution-4-1160x700.jpg',
+        imgHeight:'24rem',
+    },
+    
+
+]
+
+export const GroundImg2=[
+    {
+        id:1,
+        imgdata:'https://goonj.org/wp-content/uploads/2023/03/Distribution-8-1156x700.jpg',
+        imgHeight:'16rem',
+        imgWidth:'24rem'
+    },
+    {
+        id:2,
+        imgdata:'https://goonj.org/wp-content/uploads/2023/03/Bihar-Fellow-pooja-2022-11-10-8-1024x700.jpeg',
+        imgHeight:'16rem',
+        imgWidth:'24rem'
+        
+    },
+    {
+        id:3,
+        imgdata:'https://goonj.org/wp-content/uploads/2023/03/nikhita-s-NsPDiPFTp4c-unsplash-1160x700.jpg',
+        imgHeight:'16rem',
+        imgWidth:'24rem'
+        
+    },
+    {
+        id:4,
+        imgdata:'https://goonj.org/wp-content/uploads/2023/03/Kho-Kho-Activity-3-1160x700.jpg',
+        imgHeight:'15rem',
+        imgWidth:'24rem'
+
+    },
+    
+]
+
+export const GroundImg3=[
+    {
+        id:1,
+        imgdata:'https://goonj.org/wp-content/uploads/2023/03/Activity-3-1-1160x700.jpg',
+        imgHeight:'12rem',
+    },
+    {
+        id:2,
+        imgdata:'https://goonj.org/wp-content/uploads/2023/03/Activity-2-1160x700.jpg',
+        imgHeight:'12rem',
+
+    },
+    {
+        id:3,
+        imgdata:'https://goonj.org/wp-content/uploads/2023/03/Bihar-Fellow-pooja-2022-11-10-4-1024x700.jpeg',
+        imgHeight:'13rem',
+
+    },
+    {
+        id:4,
+        imgdata:'https://goonj.org/wp-content/uploads/2023/03/Bihar-Fellow-pooja-2022-11-10-2-768x700.jpeg',
+        imgHeight:' 26rem',
+
+    },
+
+]

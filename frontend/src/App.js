@@ -17,6 +17,8 @@ import Internship from './pages/getInvolved/Internship.js';
 import Partner from './pages/getInvolved/Partner.js';
 import Fellowship from './pages/getInvolved/Fellowship.js';
 import Baithak from './pages/getInvolved/Baithak.js';
+import Carrer from './pages/getInvolved/Carrer.js';
+import Recycle from './pages/getInvolved/Recycle.js';
 
 function App() {
   return (
@@ -39,6 +41,8 @@ function App() {
         <Route path='/partner-with-us/' element={<Partner/>} />
         <Route path='/goonj-fellowship/' element={<Fellowship/>}></Route>
         <Route path='/baithak/' element={<Baithak/>}></Route>
+        <Route path='/career/' element={<Carrer/>} />
+        <Route path='/khushiyon-ka-recycle/' element={<Recycle/>} />
       </Routes>
       
     </div>

@@ -8,7 +8,6 @@ import Share from '../../components/Share';
 import Footer from '../../components/Footer';
 import Save from '../../components/Save';
 import { GlimpsImg , GoonjImg} from '../../utils/navItem';
-import Box2 from '../../components/Box2';
 
 const Fellowship = () => {
 
@@ -101,10 +100,10 @@ const Fellowship = () => {
             Glimpses Of Fellowships
             <hr className='w-32 h-1 bg-red-600'></hr>
         </div>
-        <div className='w-full flex flex-wrap  mx-auto justify-center gap-2'>
+        <div className='w-full flex flex-wrap  mx-auto items-center  gap-2'>
         {
             GlimpsImg.map((item)=>{
-                return <Save key={item.id} {...item}/>
+                return <Save  key={item.id} {...item}/>
             })
         }
         </div>
