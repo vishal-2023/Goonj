@@ -1701,3 +1701,91 @@ export const ParticipateData =[
     }
 
 ]
+
+export const Zindagi1 =[
+    {
+        id:1,
+        imgdata:"https://goonj.org/wp-content/uploads/2022/12/11.jpeg",
+        imgHeight:"12rem",
+        imgWidth:"18rem",
+    },
+    {
+        id:2,
+        imgdata:"https://goonj.org/wp-content/uploads/2022/12/6.jpeg",
+        imgHeight:"12rem",
+        imgWidth:"18rem",
+
+    },
+    {
+        id:3,
+        imgdata:"https://goonj.org/wp-content/uploads/2022/12/2-1536x1152.jpg",
+        imgHeight:"12rem",
+        imgWidth:"18rem",
+
+    },
+    {
+        id:4,
+        imgdata:"https://goonj.org/wp-content/uploads/2022/12/12.jpeg",
+        imgHeight:"12rem",
+        imgWidth:"18rem",
+
+    },
+] 
+
+export const Zindagi2=[
+    {
+        id:1,
+        imgdata:"https://goonj.org/wp-content/uploads/2022/12/10.jpeg",
+        imgHeight:"10rem",
+
+    },
+    {
+        id:2,
+        imgdata:"https://goonj.org/wp-content/uploads/2022/12/7.jpeg",
+        imgHeight:"10rem",
+    },
+    {
+        id:3,
+        imgdata:"https://goonj.org/wp-content/uploads/2022/12/3.jpeg",
+        imgHeight:"10rem",
+    },
+    {
+        id:4,
+        imgdata:"https://goonj.org/wp-content/uploads/2022/12/14.jpeg",
+        imgHeight:"10rem",
+    },
+]
+
+export const Zindagi3=[
+    {
+        id:1,
+        imgdata:"https://goonj.org/wp-content/uploads/2022/12/9.jpeg",
+    },
+    {
+        id:2,
+        imgdata:"https://goonj.org/wp-content/uploads/2022/12/4.jpeg",
+    }
+]
+
+export const campaign=[
+    {
+        id:1,
+        heading:"Me",
+        title:"Contribute in other ways",
+        data1:"Organise virtual / in-person sessions in corporates, institutions and RWAs to create awareness about the work of Goonj.",
+        data2:"Create a space for art that encourages visitors to participate in a competition on the theme ‘Winters and Climate Change’.",
+        data3:"Wooly Karaoke Night: Organize a “Wooly Karaoke” or simply hold camps where participants can sing their hearts out while dressed in their funniest winter attire. Entry fees or winter clothing contributions will go toward the cause.",
+        data4:"‘Meme Your Warmth” Challenge: Launch a “Meme Your Warmth” challenge on social media where people create and share funny winter-themed memes. Encourage participants to contribute and challenge their friends to do the same.",
+        
+    },
+    {
+        id:2,
+        heading:"Money",
+        title:"Contribute Money",
+        data1:"Organise virtual / in-person sessions in corporates, institutions and RWAs to create awareness about the work of Goonj.",
+        data2:"Create a space for art that encourages visitors to participate in a competition on the theme ‘Winters and Climate Change’.",
+        data3:"Wooly Karaoke Night: Organize a “Wooly Karaoke” or simply hold camps where participants can sing their hearts out while dressed in their funniest winter attire. Entry fees or winter clothing contributions will go toward the cause.",
+        data4:"‘Meme Your Warmth” Challenge: Launch a “Meme Your Warmth” challenge on social media where people create and share funny winter-themed memes. Encourage participants to contribute and challenge their friends to do the same.",
+        
+    }
+]
