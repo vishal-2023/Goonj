@@ -45,35 +45,38 @@ const Recycle = () => {
         </div>
 
         <div className='w-1/2 mx-auto my-10 text-2xl font-medium text-center hover:text-red-500'>Glimpses from the Ground</div>
-        <div className='w-full h-full flex flex-row items-evenly justify-center flex-wrap'> 
-            <div className=''>
-            {
-                GroundImg1.slice(0,visible).map((item)=>{
-                    return <Save key={item.id} {...item}/>
-                })
-            }
-            </div>
-            <div>
-            {
-                GroundImg2.slice(0,visible).map((item)=>{
-                    return <Save key={item.id} {...item}/>
-                })
-            }
-            </div>
-            <div>
-            {
-                GroundImg3.slice(0,visible).map((item)=>{
-                    return <Save key={item.id} {...item}/>
-                })
-            }
-            </div>
+            <div className='w-full h-full flex flex-row items-evenly justify-center flex-wrap'> 
+                <div className=''>
+                {
+                    GroundImg1.slice(0,visible).map((item)=>{
+                        return <Save key={item.id} {...item}/>
+                    })
+                }
+                </div>
+                <div>
+                {
+                    GroundImg2.slice(0,visible).map((item)=>{
+                        return <Save key={item.id} {...item}/>
+                    })
+                }
+                </div>
+                <div>
+                {
+                    GroundImg3.slice(0,visible).map((item)=>{
+                        return <Save key={item.id} {...item}/>
+                    })
+                }
+                </div>
             
         </div>
-        {
-            hide && <Link className='border-0 w-full p-4 text-center flex items-center justify-center' onClick={handleCombinedClick}>
-              <button className='border-2 border-red-500 p-2 m-6 text-center text-base text-red-500 hover:bg-red-500 hover:text-white'>Load More</button>  
+        <div>
+            {
+                hide && <Link className='border-0 w-full p-4 text-center flex items-center justify-center' onClick={handleCombinedClick}>
+                <button className='border-2 border-red-500 p-2 m-6 text-center text-base text-red-500 hover:bg-red-500 hover:text-white'>Load More</button>  
                 </Link>
-        }
+            }
+        </div>
+        
         <Share/>
         <Footer/>
     </div>

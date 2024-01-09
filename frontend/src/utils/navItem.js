@@ -1475,3 +1475,229 @@ export const GroundImg3=[
     },
 
 ]
+
+export const JoyItem1=[
+    {
+        id:1,
+        title:"Bihar",
+        link:"https://drive.google.com/file/d/1ErmUzaBeQGJxGTU2ClYCnzcUWESZ0P-y/view",
+    },
+    {
+        id:2,
+        title:"Jharkhand",
+        link:"https://drive.google.com/file/d/1ErmUzaBeQGJxGTU2ClYCnzcUWESZ0P-y/view",
+    },
+    {
+        id:3,
+        title:"Odisha",
+        link:"https://drive.google.com/file/d/16l7hcW12PUFAbd9f7lTX-6fdaAb3RIo6/view",
+    },
+    {
+        id:4,
+        title:"West Bengal",
+        link:"https://drive.google.com/file/d/1QVqUynS7Np4_-tPqPiJ8BZXlKc88p66D/view",
+    },
+]
+
+export const JoyItem2=[
+    {
+        id:1,
+        title:"Delhi",
+        link:"https://drive.google.com/file/d/1ErmUzaBeQGJxGTU2ClYCnzcUWESZ0P-y/view",
+    },
+    {
+        id:2,
+        title:"Punjab",
+        link:"https://drive.google.com/file/d/1ErmUzaBeQGJxGTU2ClYCnzcUWESZ0P-y/view",
+    },
+    {
+        id:3,
+        title:"Rajsthan",
+        link:"https://drive.google.com/file/d/16l7hcW12PUFAbd9f7lTX-6fdaAb3RIo6/view",
+    },
+    {
+        id:4,
+        title:"Uttar Pradesh",
+        link:"https://drive.google.com/file/d/1QVqUynS7Np4_-tPqPiJ8BZXlKc88p66D/view",
+    },
+]
+
+export const JoyItem3=[
+    {
+        id:1,
+        title:"Karnataka",
+        link:"https://drive.google.com/file/d/1ErmUzaBeQGJxGTU2ClYCnzcUWESZ0P-y/view",
+    },
+    {
+        id:2,
+        title:"Kerala",
+        link:"https://drive.google.com/file/d/1ErmUzaBeQGJxGTU2ClYCnzcUWESZ0P-y/view",
+    },
+    {
+        id:3,
+        title:"TamilNadu",
+        link:"https://drive.google.com/file/d/16l7hcW12PUFAbd9f7lTX-6fdaAb3RIo6/view",
+    },
+    {
+        id:4,
+        title:"Telangana",
+        link:"https://drive.google.com/file/d/1QVqUynS7Np4_-tPqPiJ8BZXlKc88p66D/view",
+    },
+]
+
+export const JoyItem4=[
+    {
+        id:1,
+        title:"Goa",
+        link:"https://drive.google.com/file/d/1ErmUzaBeQGJxGTU2ClYCnzcUWESZ0P-y/view",
+    },
+    {
+        id:2,
+        title:"Gujarat",
+        link:"https://drive.google.com/file/d/1ErmUzaBeQGJxGTU2ClYCnzcUWESZ0P-y/view",
+    },
+    {
+        id:3,
+        title:"Madhya Pradesh",
+        link:"https://drive.google.com/file/d/16l7hcW12PUFAbd9f7lTX-6fdaAb3RIo6/view",
+    },
+    {
+        id:4,
+        title:"Maharastra",
+        link:"https://drive.google.com/file/d/1QVqUynS7Np4_-tPqPiJ8BZXlKc88p66D/view",
+    },
+]
+
+export const jgwImg = [
+    {
+        id:1,
+        imgdata:'https://goonj.org/wp-content/uploads/2023/09/DSC1742-min-scaled.jpg',
+        imgHeight: '14rem',
+    },
+    {
+        id:2,
+        imgdata:'https://goonj.org/wp-content/uploads/2023/09/DSC1826-min-scaled.jpg',
+        imgHeight: '14rem',
+    },
+    {
+        id:3,
+        imgdata:'https://goonj.org/wp-content/uploads/2023/09/DSC1875-min-580x420.jpg',
+        imgHeight: '14rem',
+    },
+    {
+        id:4,
+        imgdata:'https://goonj.org/wp-content/uploads/2023/09/5a8d53aa-4cbe-4120-861d-2653d68d473c-min-580x420.jpg',
+        imgHeight: '14rem',
+    },
+    {
+        id:5,
+        imgdata:'https://goonj.org/wp-content/uploads/2023/09/2022-UPD-Coll-099-2-min-580x420.jpeg',
+        imgHeight: '14rem',
+    },
+    {
+        id:6,
+        imgdata:'https://goonj.org/wp-content/uploads/2023/09/1664352688115-min-580x420.jpg',
+        imgHeight: '14rem',
+    },
+    {
+        id:7,
+        imgdata:'https://goonj.org/wp-content/uploads/2023/09/1665399995176-min-580x420.jpg',
+        imgHeight: '14rem',
+    },
+    {
+        id:8,
+        imgdata:'https://goonj.org/wp-content/uploads/2023/09/Bhandup-2.10-2-min-580x420.jpg',
+        imgHeight: '14rem',
+    },
+    {
+        id:9,
+        imgdata:'https://goonj.org/wp-content/uploads/2023/09/Camp-Road-Kerala-Samajam-Madampakkam-6-min-580x420.jpg'
+        ,imgHeight: '14rem',
+    },
+    {
+        id:10,
+        imgdata:'https://goonj.org/wp-content/uploads/2023/09/Chennai-DLF-Garden-city-3-min-580x420.jpg'
+        ,imgHeight: '14rem',
+    },
+    {
+        id:11,
+        imgdata:'https://goonj.org/wp-content/uploads/2023/09/Chennai-DLF-Garden-city-11-min-580x420.jpg'
+        ,imgHeight: '14rem',
+    },
+    {
+        id:12,
+        imgdata:'https://goonj.org/wp-content/uploads/2023/09/Delhi-ncr-West-Delhi-Vikas-puri-1-min-580x420.jpg'
+        ,imgHeight: '14rem',
+    },
+    {
+        id:13,
+        imgdata:'https://goonj.org/wp-content/uploads/2023/09/e99fe8bc-c492-4341-bdcc-126e5e23b713-min-580x420.jpg'
+        ,imgHeight: '14rem',
+    },  
+    {
+        id:14,
+        imgdata:'https://goonj.org/wp-content/uploads/2023/09/Festival-daan-utsav-JGW-ct-2018-Mumbai-41-min-580x420.jpeg'
+        ,imgHeight: '14rem',
+    },
+    {
+        id:15,
+        imgdata:'https://goonj.org/wp-content/uploads/2023/09/Festival-daan-utsav-JGW-ct-2018-Mumbai-99-min-580x420.jpeg'
+        ,imgHeight: '14rem',}
+    ,{
+        id:16,
+        imgdata:'https://goonj.org/wp-content/uploads/2023/09/Festival-daan-utsav-JGW-ct-2018-Mumbai-100-min-580x420.jpeg'
+        ,imgHeight: '14rem',
+    },
+    {
+        id:17,
+        imgdata:'https://goonj.org/wp-content/uploads/2023/09/DSC1742-min-scaled.jpg',
+        imgHeight: '14rem',
+    },
+    {
+        id:18,
+        imgdata:'https://goonj.org/wp-content/uploads/2023/09/DSC1826-min-scaled.jpg'
+        ,imgHeight: '14rem',
+    },
+    {
+        id:19,
+        imgdata:'https://goonj.org/wp-content/uploads/2023/09/DSC1875-min-580x420.jpg'
+        ,imgHeight: '14rem',
+    },
+    {
+        id:20,
+        imgdata:'https://goonj.org/wp-content/uploads/2023/09/5a8d53aa-4cbe-4120-861d-2653d68d473c-min-580x420.jpg'
+        ,imgHeight: '14rem',
+    },
+]
+
+
+export const ParticipateData =[
+    {
+        id:1,
+        imgdata:"https://goonj.org/wp-content/uploads/2023/09/For-Material.png",
+        title:"Material",
+        data1:"Hold a Goonj Festival of Giving, in your residential area/office/school/college/club. Give your used/unused/ household/office/stock material to us. You can engage with us for short term as well as long term. To organise, Goonj Festival of Giving. register with us https://forms.gle/tjbDNYkaGAUX8WeS8",
+        data2:" Focus on generating specific and urgently required materials like saree / wedding garments / winter clothing / school materials / cotton materials by registering here https://forms.gle/tjbDNYkaGAUX8WeS8",
+        data3:"If you are a retail chain / e-commerce platform, join hands with us to create a campaign to encourage material and monetary giving. Previously Shoppers Stop, Marks & Spencer, Raymond & others have collaborated with us to create beautifully woven campaigns. To know more please refer _- (Link) & write to jgwgoonj@goonj.org",
+        data4:" Shout out to manufacturers, wholesalers, FMCG and retail chains to contribute deadstock of material or surplus woolens, flex, sarees, katran, etc .Write to jgwgoonj@goonj.org for more details.",
+    },
+    {
+        id:2,
+        imgdata:"https://goonj.org/wp-content/uploads/2023/09/For-Money-1.png",
+        title:"Money",
+        data1:"Hold a Goonj Festival of Giving, in your residential area/office/school/college/club. Give your used/unused/ household/office/stock material to us. You can engage with us for short term as well as long term. To organise, Goonj Festival of Giving. register with us https://forms.gle/tjbDNYkaGAUX8WeS8",
+        data2:" Focus on generating specific and urgently required materials like saree / wedding garments / winter clothing / school materials / cotton materials by registering here https://forms.gle/tjbDNYkaGAUX8WeS8",
+        data3:"If you are a retail chain / e-commerce platform, join hands with us to create a campaign to encourage material and monetary giving. Previously Shoppers Stop, Marks & Spencer, Raymond & others have collaborated with us to create beautifully woven campaigns. To know more please refer _- (Link) & write to jgwgoonj@goonj.org",
+        data4:" Shout out to manufacturers, wholesalers, FMCG and retail chains to contribute deadstock of material or surplus woolens, flex, sarees, katran, etc .Write to jgwgoonj@goonj.org for more details.",
+    },
+    {
+        id:3,
+        imgdata:"https://goonj.org/wp-content/uploads/2023/09/For-Me-1.jpeg",
+        title:"Me",
+        data1:"Hold a Goonj Festival of Giving, in your residential area/office/school/college/club. Give your used/unused/ household/office/stock material to us. You can engage with us for short term as well as long term. To organise, Goonj Festival of Giving. register with us https://forms.gle/tjbDNYkaGAUX8WeS8",
+        data2:" Focus on generating specific and urgently required materials like saree / wedding garments / winter clothing / school materials / cotton materials by registering here https://forms.gle/tjbDNYkaGAUX8WeS8",
+        data3:"If you are a retail chain / e-commerce platform, join hands with us to create a campaign to encourage material and monetary giving. Previously Shoppers Stop, Marks & Spencer, Raymond & others have collaborated with us to create beautifully woven campaigns. To know more please refer _- (Link) & write to jgwgoonj@goonj.org",
+        data4:" Shout out to manufacturers, wholesalers, FMCG and retail chains to contribute deadstock of material or surplus woolens, flex, sarees, katran, etc .Write to jgwgoonj@goonj.org for more details.",
+    }
+
+]
