@@ -1789,3 +1789,66 @@ export const campaign=[
         
     }
 ]
+
+export const partner =[
+    {
+        id:1,
+        imgdata:"https://goonj.org/wp-content/uploads/2023/05/Uttarakhand-NJPC-Meeting-Bhelatipri-7-Jan-15-1.webp"
+        ,imgHeight:"18rem",
+    },
+    {
+        id:2,
+        imgdata:"https://goonj.org/wp-content/uploads/2023/05/Photo-2.webp",
+        imgHeight:"18rem",
+    },
+    {
+        id:3,
+        imgdata:"https://goonj.org/wp-content/uploads/2023/05/3.webp",
+        imgHeight:"18rem",
+    },
+    {
+        id:4,
+        imgdata:"https://goonj.org/wp-content/uploads/2023/05/day-3-13.webp",
+        imgHeight:"18rem",
+    },
+    {
+        id:5,
+        imgdata:"https://goonj.org/wp-content/uploads/2023/05/M.H-Day-7.webp",
+        imgHeight:"18rem",
+    },
+    {
+        id:6,
+        imgdata:"https://goonj.org/wp-content/uploads/2023/05/WhatsApp-Image-2022-05-28-at-8.42.54-AM.webp",
+        imgHeight:"18rem",
+    },
+    {
+        id:7,
+        imgdata:"https://goonj.org/wp-content/uploads/2023/05/IMG_20220818_113324-3.webp",
+        imgHeight:"18rem",
+    },
+    {
+        id:8,
+        imgdata:"https://goonj.org/wp-content/uploads/2023/05/IMG_20220818_143920-2.webp",
+        imgHeight:"18rem",
+    },
+    {
+        id:9,
+        imgdata:"https://goonj.org/wp-content/uploads/2023/05/IMG_1671.webp",
+        imgHeight:"18rem",
+    },
+    {
+        id:10,
+        imgdata:"https://goonj.org/wp-content/uploads/2023/05/hyderabad-CFW-Basha-Charitable-Trust-1-st-truck-Gouuagunta-2018-19-2.webp",
+        imgHeight:"18rem",
+    },
+    {
+        id:11,
+        imgdata:"https://goonj.org/wp-content/uploads/2023/05/DSC0640.webp",
+        imgHeight:"18rem",
+    },
+    {
+        id:12,
+        imgdata:"https://goonj.org/wp-content/uploads/2023/05/271744618_10159442644886265_9030223940300430958_n.webp",
+        imgHeight:"18rem",
+    },
+]

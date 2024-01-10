@@ -54,14 +54,14 @@ const Navbar = () => {
 
   
   return (
-    <div className=''>
-    <div className=' box-border h-12 m-1/2  w-12/13 p-4 border-0 flex flex-row items-center mx-auto justify-between'>
+    <div className='w-full z-50 fixed bg-white p-2'>
+    <div className=' box-border h-12 m-1/2 w-12/13 p-4 border-0 flex flex-row items-center mx-auto justify-between'>
       <div>
         <NavLink to="/">
           <img className='w-14 h-8' src='https://goonj.org/wp-content/uploads/2020/06/Goonj-logo-10June20.png' alt='img' />
         </NavLink>
       </div>
-      <ul className='flex items-center text-sm justify-center gap-4'>
+      <ul className='flex items-center z-40 text-sm justify-center gap-4'>
         <li> 
           <NavLink to="/"><FaHome/></NavLink>
         </li>
@@ -69,7 +69,7 @@ const Navbar = () => {
           
           <NavLink >about us</NavLink>
           {firHovering && (
-            <div className='top-6 absolute'>
+            <div className='top-6 h-full z-50 absolute'>
               <Menubar  dropDown={AboutdropDown} />
             </div>)  
           }    
@@ -94,11 +94,11 @@ const Navbar = () => {
           ) 
           }
         </li>
-        <li className='relative h-16 flex flex-col items-center justify-center' onMouseEnter={handleMouseOver3} onMouseLeave={handleMouseOut3}>
+        <li className='relative h-16 flex flex-col z-50 items-center justify-center' onMouseEnter={handleMouseOver3} onMouseLeave={handleMouseOut3}>
           <NavLink>Updates</NavLink>
           {
             thirdHovering && (
-              <div className='top-6 absolute'>
+              <div className='top-6 z-50 absolute'>
             <Menubar  dropDown={updatadropDown} />
           </div>
             )

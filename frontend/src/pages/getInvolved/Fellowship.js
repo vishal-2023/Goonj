@@ -24,9 +24,9 @@ const Fellowship = () => {
 
 
   return (
-    <div className='overflow-hidden w-full h-full m-0 p-0'>
+    <div className='overflow-hidden '>
         <Navbar/>
-        <div className='w-11/12 mx-auto h-full my-2'>
+        <div className='w-11/12 mx-auto mt-16 h-full my-2'>
             <Slider {...settings}>
                 {
                 fellowImg.map((props) => (

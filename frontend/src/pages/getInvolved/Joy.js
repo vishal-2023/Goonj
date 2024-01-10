@@ -27,7 +27,7 @@ const Joy = () => {
   return (
     <div className='overflow-hidden'>
         <Navbar/>
-        <div className='w-full h-2/3  mt-1' >
+        <div className='w-full h-2/3  mt-16' >
             <img className='w-full h-[35rem] ' src='https://goonj.org/wp-content/uploads/2023/09/Web-header-JGW-Page-1.jpg' alt=''/>
         </div>
         <div className='w-10/12 h-full flex flex-col my-10 mx-auto'>

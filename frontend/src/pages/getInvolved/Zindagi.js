@@ -10,9 +10,9 @@ import Collapsible from 'react-collapsible';
 
 const Zindagi = () => {
   return (
-    <div>
+    <div className='w-full h-full'>
         <Navbar/>
-        <div className=' w-full mt-2 '>
+        <div className=''>
             <img className='h-screen' src='https://goonj.org/wp-content/uploads/2023/11/ODZ-page-header-file.png' alt='' />
             <div className='text-center text-5xl m-8 font-semibold hover:text-red-500'>
             Goonj’s winter campaign

@@ -5,10 +5,14 @@ import Footer from '../../components/Footer';
 
 const Partner = () => {
   return (
-    <div className='overflow-hidden'>
-        <Navbar/>
-        <img className='w-full h-80 scale-100 mt-2 ' src='https://goonj.org/wp-content/uploads/2018/05/partner-Ban-977x650.png' alt='' />
-        <div className='absolute top-40 w-full mx-auto flex items-center justify-center   text-white text-3xl leading-9 font-medium'>Partner with us</div>  
+    <div className='overflow-hidden w-full h-full'>
+        <div>
+          <Navbar/>
+        </div>
+        <div className=''>
+          <img className='w-full mt-2 ' src='https://goonj.org/wp-content/uploads/2018/05/partner-Ban-977x650.png' alt='' />
+          <div className='absolute top-96 z-0 w-full mx-auto flex items-center justify-center   text-white text-3xl leading-9 font-medium'>Partner with us</div>  
+        </div>
         <Share/>
         <Footer/>
     </div>

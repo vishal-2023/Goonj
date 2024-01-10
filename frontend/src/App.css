@@ -5,6 +5,10 @@
     }
   } */
 
+  *{
+    margin: 0;
+    padding: 0;
+  }
 
   #btnLeft:onclick{
     color: red; /* Color on hover */

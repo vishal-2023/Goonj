@@ -24,7 +24,7 @@ const Carrer = () => {
   return (
     <div className='overflow-hidden'>
         <Navbar/>
-        <div className='w-11/12 mx-auto h-full my-2'>
+        <div className='w-11/12 mt-16 mx-auto h-full my-2'>
             <Slider {...settings}>
                 {
                 carrerdata.map((props) => (
