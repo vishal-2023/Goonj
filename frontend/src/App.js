@@ -22,6 +22,7 @@ import Recycle from './pages/getInvolved/Recycle.js';
 import Joy from './pages/getInvolved/Joy.js';
 import Zindagi from './pages/getInvolved/Zindagi.js';
 import Menstrual from './pages/update/Menstrual.js';
+import Chaupal from './pages/update/Chaupal.js';
 
 function App() {
   return (
@@ -49,6 +50,7 @@ function App() {
         <Route path='/joy-of-giving-2023/' element={<Joy/>} />
         <Route path='/odz-2023/' element={<Zindagi/>} />
         <Route path='/mh-day-2023/' element={<Menstrual/>} />
+        <Route path='/chaupal2023/' element={<Chaupal/>} />
       </Routes>
       
     </div>
