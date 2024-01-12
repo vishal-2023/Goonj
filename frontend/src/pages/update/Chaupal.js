@@ -2,10 +2,31 @@ import React from 'react'
 import Navbar from '../../components/Navbar';
 import Share from '../../components/Share';
 import Footer from '../../components/Footer';
+import { useState } from 'react';
+import { jgwImg } from '../../utils/navItem';
+import { Link } from 'react-router-dom';
+import Save from '../../components/Save';
+
 
 const Chaupal = () => {
+
+  const [visible,setVisible] = useState(3);
+  const [hide,setHide] = useState(true);
+  const showItems = () =>{
+      setVisible((prev) => prev+3);
+  }
+  const hideItem = () =>{
+      setHide(visible<16);
+  }
+
+  const Handler=()=>{
+      console.log(visible)
+      hideItem();
+      showItems();
+  }
+
   return (
-    <div>
+    <div className='bg-[#fffcfc]'>
         <Navbar/>
         <div className=''>
           <img className='p-5 pt-18' src='https://goonj.org/wp-content/uploads/2024/01/Website-Slider-Chaupal-1-1536x641.png' alt='' />
@@ -20,10 +41,40 @@ const Chaupal = () => {
           <img src='https://goonj.org/wp-content/uploads/2024/01/Chaupal-Invite-2.png' alt='' />
         </div>
         <div className='border-2 w-2/3 mx-auto p-3 text-lg flex flex-col gap-6 text-center'>
-          <div>Please RSVP here to help us make better arrangements for YOU!!</div>
+          <div>Please <Link className='text-red-500 text-sm font-medium underline' to='https://docs.google.com/forms/d/e/1FAIpQLScE8ugJRiOI_aVZO_ULItLd6bufNut72rqBAWSk5w9pI5vFtw/viewform'> RSVP here </Link> to help us make better arrangements for YOU!!</div>
           <div>We hope to see you there.. to HUG YOU and to TALK TO YOU about our collective way forward. </div>
           <div>Do block your calendar and don’t miss this opportunity to reconnect with us and other ‘Do Gooders’ in your city. </div>
           <div>(Dates for Kochi, Pune will be announced soon)</div>
+        </div>
+
+        <div className='text-center py-5 mt-5 text-3xl font-medium'>Goonj in various States</div>
+        <div className='flex flex-row gap-2 mx-auto w-9/12 text-center justify-center'>  
+          <div>
+            <div className='my-3 text-lg font-medium'>Assam & West Bengal</div>
+            <iframe width="400" height="215" src="https://www.youtube.com/embed/V92n--PQ_dQ?si=utiduKc2j1jOsG8t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div>
+            <div className='my-3 text-lg font-medium'>Karnataka</div>
+            <iframe width="400" height="215" src="https://www.youtube.com/embed/q_0Z8z30_ZU?si=xLWwJj1gNwGx65iq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
+            </div>
+        </div>
+        <div className='m-10'>
+          <div className='text-center text-3xl font-medium my-8'>Glimpse of Chaupal 2023</div>
+          <div className='flex flex-row flex-wrap items-center justify-center gap-2 m-3'>
+            
+            {
+                jgwImg.slice(0,visible).map((item)=>{
+                    return <Save {...item}/>
+                })
+            }
+        </div>
+        <div>
+            {hide && 
+                <Link className='border-0 w-full p-4 text-center flex items-center justify-center' >
+                    <button className='border-2 border-red-500 p-2 m-6 text-center text-lg font-medium text-red-500 hover:bg-red-500 hover:text-white' onClick={Handler}>Load More</button>  
+                </Link>
+            }
+        </div>
         </div>
         <Share/>
         <Footer/>
