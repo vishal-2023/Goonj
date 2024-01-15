@@ -23,6 +23,9 @@ import Joy from './pages/getInvolved/Joy.js';
 import Zindagi from './pages/getInvolved/Zindagi.js';
 import Menstrual from './pages/update/Menstrual.js';
 import Chaupal from './pages/update/Chaupal.js';
+import  DignityPage  from './pages/update/Dignity.js';
+import Junoon from './pages/update/Junoon.js';
+
 
 function App() {
   return (
@@ -51,6 +54,8 @@ function App() {
         <Route path='/odz-2023/' element={<Zindagi/>} />
         <Route path='/mh-day-2023/' element={<Menstrual/>} />
         <Route path='/chaupal2023/' element={<Chaupal/>} />
+        <Route path='/dignitydiaries/' element={<DignityPage/>} />
+        <Route path='/junoon-awards/' element={<Junoon/>} />
       </Routes>
       
     </div>
