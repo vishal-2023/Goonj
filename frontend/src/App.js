@@ -25,6 +25,7 @@ import Menstrual from './pages/update/Menstrual.js';
 import Chaupal from './pages/update/Chaupal.js';
 import  DignityPage  from './pages/update/Dignity.js';
 import Junoon from './pages/update/Junoon.js';
+import Gaard from './pages/update/Gaard.js';
 
 
 function App() {
@@ -56,6 +57,7 @@ function App() {
         <Route path='/chaupal2023/' element={<Chaupal/>} />
         <Route path='/dignitydiaries/' element={<DignityPage/>} />
         <Route path='/junoon-awards/' element={<Junoon/>} />
+        <Route path='/garrd/' element={<Gaard/>} />
       </Routes>
       
     </div>

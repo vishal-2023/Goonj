@@ -1905,3 +1905,150 @@ export const DignityData=[
     },
 ]
 
+export const DisasterImg=[
+    {
+        id:1,
+        imgdata:"https://goonj.org/wp-content/uploads/2021/05/ImpactAccess-River-Kaljani-1-300x300.jpg",
+        imgHeight:'15rem',
+    },
+    {
+        id:2,
+        imgdata:"https://goonj.org/wp-content/uploads/2020/11/nivar-slider-300x300.jpg",
+        imgHeight:'15rem',
+    },
+    {
+        id:3,
+        imgdata:"https://goonj.org/wp-content/uploads/2020/09/Chhattisgarh-1-300x300.jpg",
+        imgHeight:'15rem',
+    },
+    {
+        id:4,
+        imgdata:"https://goonj.org/wp-content/uploads/2020/09/Chhattisgarh-3-300x300.jpg",
+        imgHeight:'15rem',
+    },
+    {
+        id:5,
+        imgdata:"https://goonj.org/wp-content/uploads/2020/09/AP-and-Telangana-2-300x300.jpeg",
+        imgHeight:'15rem',
+    },
+    {
+        id:6,
+        imgdata:"https://goonj.org/wp-content/uploads/2020/09/ODISHA-Floods2020-1-300x300.jpg",
+        imgHeight:'15rem',
+    },
+    {
+        id:7,
+        imgdata:"https://goonj.org/wp-content/uploads/2020/09/ODISHA-Floods2020-6-300x300.jpg",
+        imgHeight:'15rem',
+    },
+    {
+        id:8,
+        imgdata:"https://goonj.org/wp-content/uploads/2020/09/AP-and-Telangana-3-300x300.jpeg",
+        imgHeight:'15rem',
+    },
+    {
+        id:9,
+        imgdata:"https://goonj.org/wp-content/uploads/2020/09/AP-and-Telangana-4-300x300.jpeg",
+        imgHeight:'15rem',
+    },
+    {
+        id:10,
+        imgdata:"https://goonj.org/wp-content/uploads/2020/08/BIHAR-4-300x300.jpg",
+        imgHeight:'15rem',
+    },
+    {
+        id:11,
+        imgdata:"https://goonj.org/wp-content/uploads/2021/05/ImpactAccess-River-Kaljani-1-300x300.jpg",
+        imgHeight:'15rem',
+
+    },
+    {
+        id:12,
+        imgdata:"https://goonj.org/wp-content/uploads/2020/11/nivar-slider-300x300.jpg",
+        imgHeight:'15rem',
+    },
+    {
+        id:13,
+        imgdata:"https://goonj.org/wp-content/uploads/2020/09/Chhattisgarh-1-300x300.jpg",
+        imgHeight:'15rem',
+    },
+    {
+        id:14,
+        imgdata:"https://goonj.org/wp-content/uploads/2020/09/Chhattisgarh-3-300x300.jpg",
+        imgHeight:'15rem',
+    },
+    {
+        id:15,
+        imgdata:"https://goonj.org/wp-content/uploads/2020/09/AP-and-Telangana-2-300x300.jpeg",
+        imgHeight:'15rem',
+    },
+    {
+        id:16,
+        imgdata:"https://goonj.org/wp-content/uploads/2020/09/ODISHA-Floods2020-1-300x300.jpg",
+        imgHeight:'15rem',
+    },
+    {
+        id:17,
+        imgdata:"https://goonj.org/wp-content/uploads/2020/09/ODISHA-Floods2020-6-300x300.jpg",
+        imgHeight:'15rem',
+    },
+    {
+        id:18,
+        imgdata:"https://goonj.org/wp-content/uploads/2020/09/AP-and-Telangana-3-300x300.jpeg",
+        imgHeight:'15rem',
+    },
+    {
+        id:19,
+        imgdata:"https://goonj.org/wp-content/uploads/2020/09/AP-and-Telangana-4-300x300.jpeg",
+        imgHeight:'15rem',
+    },
+    {
+        id:20,
+        imgdata:"https://goonj.org/wp-content/uploads/2020/08/BIHAR-4-300x300.jpg",
+        imgHeight:'15rem',
+    },
+    
+]
+
+export const Pages=[
+    {
+        id:1,
+        imgdata:"https://goonj.org/wp-content/uploads/2022/10/customer-service.png",
+        title:"WHY GARRD ?",
+        data1:"-> Disaster losses are increasing exponentially.",
+        data2:"-> India itself is one of the most disaster-prone areas of the world exposed to many natural hazards including floods, cyclones, droughts, and earthquakes",
+        data3:"-> Both natural and man-made disasters cause tremendous loss of life and property-infrastructure.",
+        data4:"-> This leads to mounting expenses on relief and rehabilitation.",
+        color:"bg-gradient-to-r from-blue-500 via-cyan-500 to-blue-300"
+    },
+    {
+        id:2,
+        imgdata:"https://goonj.org/wp-content/uploads/2022/10/help.png",
+        title:" WHAT IS GARRD ?",
+        data1:"-> A Scalable Shovel-Ready Idea",
+        data2:"-> A collaborative network of rural and urban stakeholders and actors created and working together in disaster and non-disaster times.  by funders, community leaders, and other stakeholders",
+        data3:"-> It focuses on bringing disaster response into the mindset of each member of the alliance for their own organizational work and approaches. GARRD can be known as the ongoing collaborative process of listening, learning, and leveraging system-changing actions in non-disaster time to prepare for colossal damage and devastation. It taps into well-defined resource commitments in advance for disasters,",
+        color:"bg-gradient-to-r from-green-400 via-teal-300 to-green-600",
+    },
+    {
+        id:3,
+        imgdata:"https://goonj.org/wp-content/uploads/2022/10/value.png",
+        title:"VALUES OF GARRD",
+        data1:"-> Ensure rapid deployment of resources where they are most needed",
+        data2:"-> Improve before we change… like old drugs are being repurposed for covid, similarly learn from past disasters and from grassroots innovators and communities who consistently repurpose available solutions and tools to make them more effective",
+        data3:"-> Give voice, visibility, and velocity to local creativity, collaboration, and compassion",
+        data4:"-> A process of constant learning and course correction (from disasters) on a systemic societal level.",
+        color:"bg-gradient-75"
+    },
+    {
+        id:4,
+        imgdata:"https://goonj.org/wp-content/uploads/2022/10/guide-book.png",
+        title:"GUIDING PRINCIPLES",
+        data1:"-> Our goal is to increase the world’s resilience i.e its ability to adapt incrementally to changes that disasters are bringing.",
+        data2:"-> Pre-committed resources for disasters – services, material, money, information, and other things needed for a more rapid response at the time of a disaster, are committed before time.",
+        data3:"-> Bring disasters and disaster response into the mindset of society in non-disaster times; with disaster exhibitions, public dialogue, social media, etc. to mainstream the issues around disaster response.",
+        data4:"-> Set in place a process of constant learning and course correction (from disasters) on a societal level; Learn from past disasters and from grassroots innovators and communities who consistently repurpose available solutions and tools to make them more effective.",
+        color:"bg-gradient-custom"
+    },
+
+]

@@ -10,3 +10,13 @@
 .active img{
     padding: 5px;
 }
+
+
+@layer utilities {
+    .bg-gradient-75 {
+      background: linear-gradient(75deg, #0f8d71, #27f4c7);
+    }
+    .bg-gradient-custom {
+        background: linear-gradient(75deg, #f3b480, #ce8f5a);
+      }
+  }
