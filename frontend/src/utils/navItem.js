@@ -212,6 +212,7 @@ export const AddressData = [
       email: "chandan@gooj.org",
       timing: "10 am to 5 pm, Sunday closed",
       note:"* If you are not able to reach our team members on the above numbers, then please call us on 011- 41401216 or write to us at mail@goonj.org"
+        ,colorText: "text-red-500",
     },
     {
       id:2,
@@ -221,6 +222,7 @@ export const AddressData = [
       email:"jigisha@goonj.org / anisha@goonj.org",
       timing:"10 am to 5 pm, Sunday closed",
       note:"* If you are not able to reach our team members on the above number, then please call us on 011- 41401216 or write to us mail@goonj.org"
+      ,colorText: "text-red-500",
     },
     {
       id:3,
