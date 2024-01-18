@@ -2205,7 +2205,7 @@ export const droppingData=[
         Timing:"Monday – Saturday 10.00 AM - 5.00 PM (closed on Sundays and holidays)"
     },
     {
-        id:1,
+        id:6,
         title:"Harayana (1 center)",
         data:"Patna",
         heading:"Goonj , Flat no- A/401, Jagdeo ashiyana apartment, Ashiyana Nagar Patna- 800025 (Near Prabhuji restaurant)",
@@ -2214,7 +2214,7 @@ export const droppingData=[
         Timing:"Monday – Saturday 10.00 AM - 5.00 PM (closed on Sundays and holidays)"
     },
     {
-        id:6,
+        id:7,
         title:"UP (1 center)",
         data:"UP",
         heading:"Goonj , Flat no- A/401, Jagdeo ashiyana apartment, Ashiyana Nagar UP- 800025 (Near Prabhuji restaurant)",
@@ -2223,7 +2223,7 @@ export const droppingData=[
         Timing:"Monday – Saturday 10.00 AM - 5.00 PM (closed on Sundays and holidays)"
     },
     {
-        id:7,
+        id:8,
         title:"Assam (1 center)",
         data:"Assam",
         heading:"Goonj , Flat no- A/401, Jagdeo ashiyana apartment, Ashiyana Nagar Assam- 800025 (Near Prabhuji restaurant)",
@@ -2232,4 +2232,66 @@ export const droppingData=[
         Timing:"Monday – Saturday 10.00 AM - 5.00 PM (closed on Sundays and holidays)"
     },
 
+]
+
+export const droppingData1=[
+    {
+        id:1,
+        title:"Bihar (1 center)",
+        data:"Patna",
+        heading:"Goonj , Flat no- A/401, Jagdeo ashiyana apartment, Ashiyana Nagar Patna- 800025 (Near Prabhuji restaurant)",
+        contact:"Sheoji Chaturvedi 8287969768 Sanjeev KR- 8287971343",
+        email:"sheoji@goonj.org",
+        Timing:"Monday – Saturday 10.00 AM - 5.00 PM (closed on Sundays and holidays)"
+    },
+    {
+        id:2,
+        title:"Kerala",
+        data:"Kerala",
+        heading:"Goonj , Flat no- A/401, Jagdeo ashiyana apartment, Ashiyana Nagar Kerala- 800025 (Near Prabhuji restaurant)",
+        contact:"Sheoji Chaturvedi 8287969768 Sanjeev KR- 8287971343",
+        email:"sheoji@goonj.org",
+        Timing:"Monday – Saturday 10.00 AM - 5.00 PM (closed on Sundays and holidays)"
+    },
+    {
+        id:3,
+        title:"Karnataka (1 center)",
+        data:"Karnataka",
+        heading:"Goonj , Flat no- A/401, Jagdeo ashiyana apartment, Ashiyana Nagar Karnataka- 800025 (Near Prabhuji restaurant)",
+        contact:"Sheoji Chaturvedi 8287969768 Sanjeev KR- 8287971343",
+        email:"sheoji@goonj.org",
+        Timing:"Monday – Saturday 10.00 AM - 5.00 PM (closed on Sundays and holidays)"
+    },
+    {
+        id:4,
+        title:"Punjab (1 center)",
+        data:"Punjab",
+        heading:"Goonj , Flat no- A/401, Jagdeo ashiyana apartment, Ashiyana Nagar Punjab- 800025 (Near Prabhuji restaurant)",
+        contact:"Sheoji Chaturvedi 8287969768 Sanjeev KR- 8287971343",
+        email:"sheoji@goonj.org",
+        Timing:"Monday – Saturday 10.00 AM - 5.00 PM (closed on Sundays and holidays)"
+    },
+    {
+        id:5,
+        title:"TamilNadu",
+        data:"TamilNadu",
+        heading:"Goonj , Flat no- A/401, Jagdeo ashiyana apartment, Ashiyana Nagar TamilNadu- 800025 (Near Prabhuji restaurant)",
+        contact:"Sheoji Chaturvedi 8287969768 Sanjeev KR- 8287971343",
+        email:"sheoji@goonj.org",
+        Timing:"Monday – Saturday 10.00 AM - 5.00 PM (closed on Sundays and holidays)"
+    },
+]
+
+export const dropFaq=[
+    {
+        id:1,
+        que:" How do I organize collection drive in my office/colony/schools.. What kind of support GOONJ will provide to initiate the collection?",
+        ans:"First please talk to us about what exactly do you want to do including the basic information, what, where, how, when, why. Once we have the basic information we can guide you on what steps need to be taken before initiating a collection drive. If need be we will also provide you leaflets for local publicity and manpower. Organizing a collection drive may sound like a simple enough thing, but having done it consistently for the last many years, trust us that we know where the usual bottlenecks come up. We want your collection drive to be a big success, it not only helps us, it encourages more people to take up this kind of initiative. ",
+
+    },
+    {
+        id:2,
+        que:"What is the list of material that you take ?",
+        ans:"Clothing is one of the three basic needs (out of food, shelter and clothing). It not only symbolizes a person’s dignity but also offers a protection against the elements. While there are more than 100 issues being talked about in the development sector, right from domestic violence to global warming, this basic need doesn’t find a mention anywhere. GOONJ wants to make clothing a matter of concern as an important issue. In addition, we also encourage people to contribute other household items like stationery, toys, utensils."
+    }
 ]
