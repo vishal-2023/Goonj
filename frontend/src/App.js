@@ -26,6 +26,10 @@ import Chaupal from './pages/update/Chaupal.js';
 import  DignityPage  from './pages/update/Dignity.js';
 import Junoon from './pages/update/Junoon.js';
 import Gaard from './pages/update/Gaard.js';
+import Media from './pages/update/Media.js';
+import Contribute from './pages/update/Contribute.js';
+import Collapsible from 'react-collapsible';
+import Collection from './pages/update/Collection.js';
 
 
 function App() {
@@ -58,6 +62,9 @@ function App() {
         <Route path='/dignitydiaries/' element={<DignityPage/>} />
         <Route path='/junoon-awards/' element={<Junoon/>} />
         <Route path='/garrd/' element={<Gaard/>} />
+        <Route path='/goonj-in-media/' element={<Media/>} />
+        <Route path='/dropping-centres/' element={<Contribute/>} />
+        <Route path='/collection-camps/' element={<Collection/>} />
       </Routes>
       
     </div>

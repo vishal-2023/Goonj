@@ -21,3 +21,7 @@
     width: 100%;
     height: 100%;
   }
+  .colored-image {
+    filter: #212938;
+    filter: grayscale(30%) saturate(30%);
+  }

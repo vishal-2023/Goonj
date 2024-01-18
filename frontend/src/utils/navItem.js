@@ -2052,3 +2052,184 @@ export const Pages=[
     },
 
 ]
+
+export const MediaData=[
+    {
+        id:1,
+        imgdata:"https://goonj.org/wp-content/uploads/2021/06/Republicworld-India-580x420.jpeg",
+        data:"Google raises Rs 33cr to fight Covid in India. GOONJ is one of the nonprofits that is part of this campaign."
+        ,dir: "https://www.republicworld.com/",
+        imgWidth:"24rem",
+        imgHeight:"18rem",
+    },
+    {
+        id:2,
+        imgdata:"https://goonj.org/wp-content/uploads/2021/06/The-Indian-Express-482x420.jpeg",
+        data:" Covid: We must address tBeyondhe hunger crisis in India",
+        dir:"https://indianexpress.com/article/opinion/columns/coronanvirus-india-second-wave-hunger-index-poverty-migrant-crisis-7323648/",
+        imgWidth:"24rem",
+        imgHeight:"18rem",
+    },
+    {
+        id:3,
+        imgdata:"https://goonj.org/wp-content/uploads/2021/06/IDR-450x420.jpeg",
+        data:"With more people being pushed into poverty, there is now a hierarchy of marginalisation…"
+        ,dir:"https://idronline.org/article/diversity-inclusion/why-covid-19-relief-should-include-the-needs-of-vulnerable-communities/",
+        imgWidth:"24rem",
+        imgHeight:"18rem",
+    },
+    {
+        id:4,
+        imgdata:"https://goonj.org/wp-content/uploads/2021/05/Top-NGOs-in-India.jpg",
+        dir:"https://idronline.org/article/diversity-inclusion/why-covid-19-relief-should-include-the-needs-of-vulnerable-communities/",
+        data:"Top NGOs in India – by CSR Journal",
+        imgWidth:"24rem",
+        imgHeight:"18rem",
+    },
+    {
+        id:5,
+        imgdata:"https://goonj.org/wp-content/uploads/2018/06/Knowing-goonj_Anshu-580x420.png",
+        data:"NGOs Worth must be recognised",
+        dir:"https://idronline.org/article/diversity-inclusion/why-covid-19-relief-should-include-the-needs-of-vulnerable-communities/",
+        imgWidth:"24rem",
+        imgHeight:"18rem",
+    },
+    {
+        id:6,
+        imgdata:"https://goonj.org/wp-content/uploads/2018/05/anshu1.png",
+        data:"Government Schools backbone on the country says Magsaysay Winner.",
+        dir:"https://indianexpress.com/article/opinion/columns/coronanvirus-india-second-wave-hunger-index-poverty-migrant-crisis-7323648/",
+        imgWidth:"24rem",
+        imgHeight:"18rem",
+    },
+    {
+        id:7,
+        imgdata:"https://goonj.org/wp-content/uploads/2021/05/innovation-for-India-award.png",
+        dir:"https://indianexpress.com/article/opinion/columns/coronanvirus-india-second-wave-hunger-index-poverty-migrant-crisis-7323648/",
+        data:"Covid: We must address tBeyondhe hunger crisis in India",
+        imgWidth:"24rem",
+        imgHeight:"18rem",
+    },
+    {
+        id:8,
+        imgdata:"https://goonj.org/wp-content/uploads/2021/05/women-became-self-sufficient-580x353.jpg",
+        data:"With more people being pushed into poverty, there is now a hierarchy of marginalisation…"
+        ,imgWidth:"24rem",
+        imgHeight:"18rem",
+        dir:"https://indianexpress.com/article/opinion/columns/coronanvirus-india-second-wave-hunger-index-poverty-migrant-crisis-7323648/",
+
+    },
+    {
+        id:9,
+        imgdata:"https://goonj.org/wp-content/uploads/2021/05/Goonj-Helps-The-Underprivileged-Cope-With-The-Pandemic.png",
+        data:"With more people being pushed into poverty, there is now a hierarchy of marginalisation…"
+        ,imgWidth:"24rem",
+        imgHeight:"18rem",
+        dir:"https://indianexpress.com/article/opinion/columns/coronanvirus-india-second-wave-hunger-index-poverty-migrant-crisis-7323648/",
+
+    },
+    {
+        id:10,
+        imgdata:"https://goonj.org/wp-content/uploads/2019/08/disaster-exihiition-580x420.jpg",
+        data:"Covid: We must address tBeyondhe hunger crisis in India",
+        imgWidth:"24rem",
+        imgHeight:"18rem",
+        dir:"https://indianexpress.com/article/opinion/columns/coronanvirus-india-second-wave-hunger-index-poverty-migrant-crisis-7323648/",
+
+    },
+    {
+        id:11,
+        imgdata:"https://goonj.org/wp-content/uploads/2019/06/pepperfry-580x420.jpg",
+        data:"With more people being pushed into poverty, there is now a hierarchy of marginalisation…"
+        ,imgWidth:"24rem",
+        imgHeight:"18rem",
+        dir:"https://indianexpress.com/article/opinion/columns/coronanvirus-india-second-wave-hunger-index-poverty-migrant-crisis-7323648/",
+
+    },
+    {
+        id:12,
+        imgdata:"https://goonj.org/wp-content/uploads/2019/06/toi-cyclone-fani-article-580x396.jpg",
+        data:"Covid: We must address tBeyondhe hunger crisis in India",
+        imgWidth:"24rem",
+        imgHeight:"18rem",
+        dir:"https://indianexpress.com/article/opinion/columns/coronanvirus-india-second-wave-hunger-index-poverty-migrant-crisis-7323648/",
+
+    },
+
+]
+
+export const droppingData=[
+    {
+        id:1,
+        title:"Bihar (1 center)",
+        data:"Patna",
+        heading:"Goonj , Flat no- A/401, Jagdeo ashiyana apartment, Ashiyana Nagar Patna- 800025 (Near Prabhuji restaurant)",
+        contact:"Sheoji Chaturvedi 8287969768 Sanjeev KR- 8287971343",
+        email:"sheoji@goonj.org",
+        Timing:"Monday – Saturday 10.00 AM - 5.00 PM (closed on Sundays and holidays)"
+    },
+    {
+        id:2,
+        title:"Kerala",
+        data:"Kerala",
+        heading:"Goonj , Flat no- A/401, Jagdeo ashiyana apartment, Ashiyana Nagar Kerala- 800025 (Near Prabhuji restaurant)",
+        contact:"Sheoji Chaturvedi 8287969768 Sanjeev KR- 8287971343",
+        email:"sheoji@goonj.org",
+        Timing:"Monday – Saturday 10.00 AM - 5.00 PM (closed on Sundays and holidays)"
+    },
+    {
+        id:3,
+        title:"Karnataka (1 center)",
+        data:"Karnataka",
+        heading:"Goonj , Flat no- A/401, Jagdeo ashiyana apartment, Ashiyana Nagar Karnataka- 800025 (Near Prabhuji restaurant)",
+        contact:"Sheoji Chaturvedi 8287969768 Sanjeev KR- 8287971343",
+        email:"sheoji@goonj.org",
+        Timing:"Monday – Saturday 10.00 AM - 5.00 PM (closed on Sundays and holidays)"
+    },
+    {
+        id:4,
+        title:"Punjab (1 center)",
+        data:"Punjab",
+        heading:"Goonj , Flat no- A/401, Jagdeo ashiyana apartment, Ashiyana Nagar Punjab- 800025 (Near Prabhuji restaurant)",
+        contact:"Sheoji Chaturvedi 8287969768 Sanjeev KR- 8287971343",
+        email:"sheoji@goonj.org",
+        Timing:"Monday – Saturday 10.00 AM - 5.00 PM (closed on Sundays and holidays)"
+    },
+    {
+        id:5,
+        title:"TamilNadu",
+        data:"TamilNadu",
+        heading:"Goonj , Flat no- A/401, Jagdeo ashiyana apartment, Ashiyana Nagar TamilNadu- 800025 (Near Prabhuji restaurant)",
+        contact:"Sheoji Chaturvedi 8287969768 Sanjeev KR- 8287971343",
+        email:"sheoji@goonj.org",
+        Timing:"Monday – Saturday 10.00 AM - 5.00 PM (closed on Sundays and holidays)"
+    },
+    {
+        id:1,
+        title:"Harayana (1 center)",
+        data:"Patna",
+        heading:"Goonj , Flat no- A/401, Jagdeo ashiyana apartment, Ashiyana Nagar Patna- 800025 (Near Prabhuji restaurant)",
+        contact:"Sheoji Chaturvedi 8287969768 Sanjeev KR- 8287971343",
+        email:"sheoji@goonj.org",
+        Timing:"Monday – Saturday 10.00 AM - 5.00 PM (closed on Sundays and holidays)"
+    },
+    {
+        id:6,
+        title:"UP (1 center)",
+        data:"UP",
+        heading:"Goonj , Flat no- A/401, Jagdeo ashiyana apartment, Ashiyana Nagar UP- 800025 (Near Prabhuji restaurant)",
+        contact:"Sheoji Chaturvedi 8287969768 Sanjeev KR- 8287971343",
+        email:"sheoji@goonj.org",
+        Timing:"Monday – Saturday 10.00 AM - 5.00 PM (closed on Sundays and holidays)"
+    },
+    {
+        id:7,
+        title:"Assam (1 center)",
+        data:"Assam",
+        heading:"Goonj , Flat no- A/401, Jagdeo ashiyana apartment, Ashiyana Nagar Assam- 800025 (Near Prabhuji restaurant)",
+        contact:"Sheoji Chaturvedi 8287969768 Sanjeev KR- 8287971343",
+        email:"sheoji@goonj.org",
+        Timing:"Monday – Saturday 10.00 AM - 5.00 PM (closed on Sundays and holidays)"
+    },
+
+]
