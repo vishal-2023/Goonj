@@ -2297,3 +2297,64 @@ export const dropFaq=[
         ans:"Clothing is one of the three basic needs (out of food, shelter and clothing). It not only symbolizes a person’s dignity but also offers a protection against the elements. While there are more than 100 issues being talked about in the development sector, right from domestic violence to global warming, this basic need doesn’t find a mention anywhere. GOONJ wants to make clothing a matter of concern as an important issue. In addition, we also encourage people to contribute other household items like stationery, toys, utensils."
     }
 ]
+
+export const donateData=[
+    {
+        id:1,
+        img1:"https://goonj.org/donate/backend/images/campaign/cover-goonj-it---ForcrowdfundingplatformGoonjit(6.5%C3%972.6in)(YourStory).jpg",
+        title:"Goonj It !",
+        title1:"",
+        data1:"Over the years Climate change has brought a huge impact on our environment, with increasing amounts of waste, its mismanagement and reduced forest cover directly contributes to massive GHG emissions. As a negative impact on millions, we now see erratic weather patterns, increased natural disasters, etc. It is high time now we make a paradigm shift to innovative approaches to maximize material life cycles.",
+        title2:"Let us Goonj It !",
+        data2:"Goonj have been making efforts where we reduce, reuse, and recycle surplus/ waste material mostly textile (both pre-consumer and post-consumer) bringing exponential impact on the environment by minimizing the burden on landfills. This processed and customized material not only addresses material poverty but also used as a tool to mobilize, motivate, and enable people to build bridges, clean ponds, plant saplings, create private spaces for women, and reach relief to the disaster-affected. Goonj’s engagement with both the urban and rural population has galvanized a mass civic participation in addressing very basic but neglected issues. Through this in the last 25 years, Goonj brought a transformative connection between the two problems bringing a single funnel for rural poverty and the surplus of one side to solve the paucity of other.",
+        img2:"https://goonj.org/donate/backend/images/campaign_gallery/goonj-it--1-gallery-imgonline-com-ua-resize-3DMZH41uJY7H8.jpg",
+    },
+    {
+        id:2,
+        img1:"https://goonj.org/donate/backend/images/campaign/cover-school-to-school-imgonline-com-ua-resize-ssqvorjQhynlGhd.jpg",
+        title:"Khushiyon ka Recycle under School to School",
+        title1:"Background",
+        data1:"School to School builds a relationship of empathy and dignity between urban and rural children and works to bridge the gap of resources between the urban and rural centers of learning",
+        title2:"Our Approach for Rural Children",
+        data2:"Emphasize achievement instead of charity. Nudge positive behavioral practices around hygiene, attendance and social issues. Involve all rural stakeholders; school management, teachers, parents and entire village community in solving local school issues.",
+        img2:"https://goonj.org/donate/backend/images/campaign_gallery/school-to-school1-gallery-imgonline-com-ua-resize-RA5uOViHrSzUz.jpg",
+        img3:"https://goonj.org/donate/backend/images/campaign_gallery/school-to-school2-gallery-imgonline-com-ua-resize-Sim802yNPDWPSR.jpg",
+    },
+    {
+        id:3,
+        img1:"https://goonj.org/donate/backend/images/campaign/cover-not-just-a-piece-of-cloth-imgonline-com-ua-resize-4PXNJuOJGru7OT4.jpg",
+        title:"Not Just a Piece of Cloth",
+        title1:"Background ",
+        data1:"Menstruation is often termed as a 'Women's Issue' worldwide but how often have we heard it being termed as a Human Issue. Menstruation is a basic biological process and a monthly occurrence for women and girls. Yet majority of the menstruators in village India are denied the right to manage their menstrual cycle in a dignified and healthy way. For them this struggle becomes bigger as they also struggle for a basic piece of cloth for their menstruation every month in an environment of strong silence and shame around this issue.  In such a scenario they end up using rags, ash, newspapers, jute bags, used pads, sand in dire compulsion or worse they using NOTHING. This all pervasive taboo around this basic need is present in the cities and villages of India which prevents women from even voicing their menstrual challenges.",
+        title2:"Our Approach",
+        data2:"Breaking the culture of shame and silence around menstruation for the last women in rural and slum India to speak up on what’s bothering them.  Addressing their menstrual hygiene challenges with a Triple A approach on Access, Awareness and Affordability.   Motivating urban masses to contribute cloth for making ‘MY Pads’, cloth sanitary pads for women who struggle even for this basic.  ",
+        img2:"https://goonj.org/donate/backend/images/campaign_gallery/not-just-a-piece-of-cloth1-gallery-imgonline-com-ua-resize-4Zt8B5YwUhU8BfML.jpg",
+        img3:"https://goonj.org/donate/backend/images/campaign_gallery/not-just-a-piece-of-cloth2-gallery-imgonline-com-ua-resize-LhByW42Zd5sbA.jpg",
+        img4:"https://goonj.org/donate/backend/images/campaign_gallery/not-just-a-piece-of-cloth3-gallery-imgonline-com-ua-resize-nVVaphmCcVxfNnG1.jpg",
+    },
+    {
+        id:4,
+        img1:"https://goonj.org/donate/backend/images/campaign/cover-odha-do-zindagi-1.jpg",
+        title:"Odha Do Zindagi",
+        title1:"",
+        data1:"Just like every year, tackling the harsh winter will be a tough challenge for marginalised and vulnerable individuals, particularly those who have been severely affected by the widespread floods that occurred this year across the country. Without access to even the most basic necessities, the upcoming winter season could evolve into yet another Disaster for them.",
+        title2:"We are there, need you too..",
+        data2:"That woollen you love but haven't worn in a while.. It can now bring warmth to someone, contribute to development and climate action. Don't just recycle your woollens.. Goonj It.. instead.That saree you love but haven't worn in a while.. It can now contribute to the larger cause of women's dignity, development and climate action. Don't just recycle Your Sarees.. Goonj It.. instead.",
+        img2:"https://goonj.org/donate/backend/images/campaign_gallery/odha-do-zindagi1-gallery-Picture165.jpg",
+        img3:"https://goonj.org/donate/backend/images/campaign_gallery/odha-do-zindagi1-gallery-imgonline-com-ua-resize-A7DUB5FUbifbk3.jpg",
+        img4:"https://goonj.org/donate/backend/images/campaign_gallery/odha-do-zindagi1-gallery-imgonline-com-ua-resize-f8fkSjnBLomYxv.jpg",
+    },
+    {
+        id:5,
+        img1:"https://goonj.org/donate/backend/images/campaign/cover-rahat---cyclone-michaung-appeal-Cyclone-michaung-appeal-2.jpg",
+        title:"Rahat - Cyclone Michaun  ",
+        title1:"",
+        data1:"News is coming in around severe Cyclone Michaung ravaging parts of Tamil Nadu, Andhra Pradesh and adjoining areas with rains and storms        ",
+        title2:"We are there.. Need you too.        ",
+        data2:"Our state teams and grassroots partners are monitoring and assessing the situation on the ground. This is an appeal to mobilize essentials for the most affected. Rapid and timely response will play a critical role.        ",
+        img2:"https://goonj.org/donate/backend/images/campaign_gallery/rahat---cyclone-michaung-appeal2-gallery-Cyclone-michaung-appeal-4.png",
+        img3:"https://goonj.org/donate/backend/images/campaign_gallery/rahat---cyclone-michaung-appeal3-gallery-Cyclone-michaung-appeal-3.png",
+        img4:"https://goonj.org/donate/backend/images/campaign_gallery/rahat---cyclone-michaung-appeal4-gallery-Cyclone-michaung-appeal-5.png",
+    },
+
+]

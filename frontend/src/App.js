@@ -28,7 +28,7 @@ import Junoon from './pages/update/Junoon.js';
 import Gaard from './pages/update/Gaard.js';
 import Media from './pages/update/Media.js';
 import Contribute from './pages/update/Contribute.js';
-import Collapsible from 'react-collapsible';
+import Donate from './pages/update/Donate.js';
 import Collection from './pages/update/Collection.js';
 
 
@@ -65,6 +65,7 @@ function App() {
         <Route path='/goonj-in-media/' element={<Media/>} />
         <Route path='/dropping-centres/' element={<Contribute/>} />
         <Route path='/collection-camps/' element={<Collection/>} />
+        <Route path='/donate/' element={<Donate/>} />
       </Routes>
       
     </div>

@@ -6,8 +6,8 @@
   } */
 
   *{
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0% ;
   }
 
   #btnLeft:onclick{
@@ -24,4 +24,8 @@
   .colored-image {
     filter: #212938;
     filter: grayscale(30%) saturate(30%);
+  }
+
+  .red-placeholder::placeholder {
+    color: red;
   }

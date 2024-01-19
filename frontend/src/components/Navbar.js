@@ -54,8 +54,8 @@ const Navbar = () => {
 
   
   return (
-    <div className='w-full z-50 fixed bg-white p-2'>
-    <div className=' box-border h-12 m-1/2 w-12/13 p-4 border-0 flex flex-row items-center mx-auto justify-between'>
+    <div className='w-full z-50 fixed bg-white mt-[-14px] border-2 p-2'>
+    <div className=' box-border h-12  w-12/13 p-4 border-0 flex flex-row items-center mx-auto justify-between'>
       <div>
         <NavLink to="/">
           <img className='w-14 h-8' src='https://goonj.org/wp-content/uploads/2020/06/Goonj-logo-10June20.png' alt='img' />
@@ -134,7 +134,7 @@ const Navbar = () => {
         <div>  
         <NavLink to="https://www.youtube.com/channel/UCCq8iYlmjT7rrgPI1VHzIHg"> <FaYoutube/> </NavLink>
         </div>
-        <NavLink>
+        <NavLink to="/donate/">
           <button class="bg-red-500 p-2 px-4 text-white text-sm">CONTRIBUTE</button>
         </NavLink>
         
