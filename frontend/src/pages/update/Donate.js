@@ -32,7 +32,9 @@ const Carousel = ({donateData}) => {
             <img className='h-72' src={slide.img1} alt=''/>
             <div className='p-4 text-xl'>{slide.title}</div>
             <div className='text-base'>{slide.title2}</div>
-            <button className='p-2 mx-auto bg-red-500 text-white font-semibold text-xl mt-10 rounded-md w-60  mb-5'>Contribute</button>
+            <Link to={slide.link}>
+              <button className='p-2 mx-auto bg-red-500 text-white font-semibold text-xl mt-10 rounded-md w-60  mb-5'>Contribute</button>
+            </Link>
             </div>
             
           </div>
@@ -46,7 +48,7 @@ const Carousel = ({donateData}) => {
   );
 };
 
-const Guidelines =()=>{
+export const Guidelines =()=>{
   return(
     <div className='flex flex-col gap-4  w-10/12 mx-auto text-center'>
       <div className='text-3xl font-semibold text-red-500'>Guidelines</div>
@@ -70,7 +72,7 @@ const Guidelines =()=>{
 }
 
 
-const Contribute =() =>{
+export const Contribute =() =>{
   return(
     <div>
       <div className='text-center my-10 text-3xl font-medium text-red-500'>Contribute Offline</div>
@@ -127,7 +129,7 @@ const Donate = () => {
         <Navbar/>
         <div className='pt-12 relative'>
             <img className='w-full h-[30rem]' src='https://goonj.org/donate/assets/images/banner-image.jpg' alt='' />
-            <DonateBox/>
+            <DonateBox data={'absolute top-32  left-20 p-4 text-red-500 w-1/3 h-4/6 rounded-2xl flex flex-col gap-3 bg-white'} />
         </div>
         <div>
           <div className='text-center my-5 text-4xl font-semibold text-red-500'>Our Campaigns</div>

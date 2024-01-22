@@ -2308,6 +2308,10 @@ export const donateData=[
         title2:"Let us Goonj It !",
         data2:"Goonj have been making efforts where we reduce, reuse, and recycle surplus/ waste material mostly textile (both pre-consumer and post-consumer) bringing exponential impact on the environment by minimizing the burden on landfills. This processed and customized material not only addresses material poverty but also used as a tool to mobilize, motivate, and enable people to build bridges, clean ponds, plant saplings, create private spaces for women, and reach relief to the disaster-affected. Goonj’s engagement with both the urban and rural population has galvanized a mass civic participation in addressing very basic but neglected issues. Through this in the last 25 years, Goonj brought a transformative connection between the two problems bringing a single funnel for rural poverty and the surplus of one side to solve the paucity of other.",
         img2:"https://goonj.org/donate/backend/images/campaign_gallery/goonj-it--1-gallery-imgonline-com-ua-resize-3DMZH41uJY7H8.jpg",
+        link:"/component/1",
+        img4:"https://goonj.org/donate/backend/images/campaign_gallery/not-just-a-piece-of-cloth3-gallery-imgonline-com-ua-resize-nVVaphmCcVxfNnG1.jpg",
+        img3:"https://goonj.org/donate/backend/images/campaign_gallery/school-to-school2-gallery-imgonline-com-ua-resize-Sim802yNPDWPSR.jpg",
+
     },
     {
         id:2,
@@ -2319,6 +2323,9 @@ export const donateData=[
         data2:"Emphasize achievement instead of charity. Nudge positive behavioral practices around hygiene, attendance and social issues. Involve all rural stakeholders; school management, teachers, parents and entire village community in solving local school issues.",
         img2:"https://goonj.org/donate/backend/images/campaign_gallery/school-to-school1-gallery-imgonline-com-ua-resize-RA5uOViHrSzUz.jpg",
         img3:"https://goonj.org/donate/backend/images/campaign_gallery/school-to-school2-gallery-imgonline-com-ua-resize-Sim802yNPDWPSR.jpg",
+        link:"/component/2",
+        img4:"https://goonj.org/donate/backend/images/campaign_gallery/not-just-a-piece-of-cloth3-gallery-imgonline-com-ua-resize-nVVaphmCcVxfNnG1.jpg",
+        
     },
     {
         id:3,
@@ -2331,6 +2338,7 @@ export const donateData=[
         img2:"https://goonj.org/donate/backend/images/campaign_gallery/not-just-a-piece-of-cloth1-gallery-imgonline-com-ua-resize-4Zt8B5YwUhU8BfML.jpg",
         img3:"https://goonj.org/donate/backend/images/campaign_gallery/not-just-a-piece-of-cloth2-gallery-imgonline-com-ua-resize-LhByW42Zd5sbA.jpg",
         img4:"https://goonj.org/donate/backend/images/campaign_gallery/not-just-a-piece-of-cloth3-gallery-imgonline-com-ua-resize-nVVaphmCcVxfNnG1.jpg",
+        link:"/component/3",
     },
     {
         id:4,
@@ -2343,6 +2351,8 @@ export const donateData=[
         img2:"https://goonj.org/donate/backend/images/campaign_gallery/odha-do-zindagi1-gallery-Picture165.jpg",
         img3:"https://goonj.org/donate/backend/images/campaign_gallery/odha-do-zindagi1-gallery-imgonline-com-ua-resize-A7DUB5FUbifbk3.jpg",
         img4:"https://goonj.org/donate/backend/images/campaign_gallery/odha-do-zindagi1-gallery-imgonline-com-ua-resize-f8fkSjnBLomYxv.jpg",
+        link:"/component/4",
+        
     },
     {
         id:5,
@@ -2355,6 +2365,8 @@ export const donateData=[
         img2:"https://goonj.org/donate/backend/images/campaign_gallery/rahat---cyclone-michaung-appeal2-gallery-Cyclone-michaung-appeal-4.png",
         img3:"https://goonj.org/donate/backend/images/campaign_gallery/rahat---cyclone-michaung-appeal3-gallery-Cyclone-michaung-appeal-3.png",
         img4:"https://goonj.org/donate/backend/images/campaign_gallery/rahat---cyclone-michaung-appeal4-gallery-Cyclone-michaung-appeal-5.png",
+        link:"/component/5",
+        
     },
 
 ]

@@ -1,9 +1,9 @@
 import React from 'react'
 import { FaRupeeSign } from 'react-icons/fa'
 
-const DonateBox = () => {
+const DonateBox = (props) => {
   return (
-    <div className='absolute top-32  left-20 p-4 text-red-500 w-1/3 h-4/6 rounded-2xl flex flex-col gap-3 bg-white'>
+    <div className={props.data}>
         <div className='flex flex-row justify-between  '>
             <button className='p-2 px-7 rounded-md bg-[#ededed]'>One Time</button>
             <button className='p-2 px-7 rounded-md bg-[#ededed]'>Monthly</button>

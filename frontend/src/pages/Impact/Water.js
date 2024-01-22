@@ -4,6 +4,7 @@ import Footer from '../../components/Footer'
 import SubItem from '../../components/SubItem'
 import {WaterData} from '../../utils/navItem'
 import { FaArrowRight } from 'react-icons/fa'
+import { Link } from 'react-router-dom' 
 
 const Water = () => {
   return (
@@ -14,9 +15,17 @@ const Water = () => {
         <div className='w-full h-full m-3 flex flex-row gap-1/2'>
             <div className='w-2/3'>
                 {
-                    WaterData.map((item)=>{
-                        return <SubItem {...item} />
-                    })
+                    WaterData.map((item)=>(
+                        // return <SubItem key={item.id} {...item} />
+                        <div className=' border-4 flex flex-row gap-7 p-3 m-6' key={item.id}>
+                            <Link className='h-full w-full mt-2' to=''>< img className='w-72 h96' src={item.imgdata} alt='' /></Link>
+                            <div className='flex flex-col gap-5'>
+                                <h1 className='text-2xl font-semibold'>{item.title}</h1>
+                                <p className='break-word text-base font-normal leading-5'>{item.data.slice(0,400)}...</p>
+                                <Link className='text-red-500'  to={`/dummy/${item.id}`} >Read more...</Link>
+                            </div>
+                        </div>
+                    ))
                     
                 }
             </div>

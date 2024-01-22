@@ -30,7 +30,7 @@ import Media from './pages/update/Media.js';
 import Contribute from './pages/update/Contribute.js';
 import Donate from './pages/update/Donate.js';
 import Collection from './pages/update/Collection.js';
-
+import ComponentA from './components/ComponentA.js';
 
 function App() {
   return (
@@ -66,6 +66,7 @@ function App() {
         <Route path='/dropping-centres/' element={<Contribute/>} />
         <Route path='/collection-camps/' element={<Collection/>} />
         <Route path='/donate/' element={<Donate/>} />
+        <Route path="/component/:id" element={<ComponentA/>} />
       </Routes>
       
     </div>
