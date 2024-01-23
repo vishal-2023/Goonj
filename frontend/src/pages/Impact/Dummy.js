@@ -28,7 +28,7 @@ const Dummy = () => {
   return (
     <div className='overflow-hidden'>
         <Navbar />
-        <div className='w-full h-52 bg-black scale-125 text-lg text-white mt-10' ></div>
+        <div className='w-full h-52 bg-[#212938] scale-125 text-lg text-white mt-10' ></div>
         <div className='absolute top-40 w-full mx-auto flex items-center justify-center   text-white text-4xl leading-9 font-medium'>
             {item.title}
         </div>

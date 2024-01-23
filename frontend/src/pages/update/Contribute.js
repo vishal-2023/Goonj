@@ -7,7 +7,7 @@ import Collapsible from 'react-collapsible'
 
 const Contribute = () => {
   return (
-    <div>
+    <div className='overflow-hidden'>
         <Navbar/>
         <div>
           <img className='w-full mt-2 h-[28rem]' src='https://goonj.org/wp-content/uploads/2018/07/Dropping-Centres_Banner.jpg' alt='' />

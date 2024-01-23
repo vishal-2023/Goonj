@@ -25,7 +25,7 @@ const Recycle = () => {
   return (
     <div className='overflow-hidden'>
         <Navbar/>
-        <div className='w-full h-2/3  mt-16' >
+        <div className='w-full h-2/3  mt-14' >
             <img className='w-full h-[34rem] ' src='https://goonj.org/wp-content/uploads/2023/03/KKR-2023-webpage-header-1.jpg' alt=''/>
         </div>
         <div className='w-1/2 mx-auto border my-10 py-14 flex flex-col gap-6 flex-wrap text-center p-7'>

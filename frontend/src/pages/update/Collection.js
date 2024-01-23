@@ -9,7 +9,7 @@ import Collapsible from 'react-collapsible'
 
 const Collection = () => {
   return (
-    <div className='bg-[#fcfcfc]'>
+    <div className='bg-[#fcfcfc] overflow-hidden'>
         <Navbar/>
         <div className='colored-image'>
           <img className='w-full mt-2 h-[20rem]' src='https://goonj.org/wp-content/uploads/2018/06/banner_collection-Camp.png' alt='' />

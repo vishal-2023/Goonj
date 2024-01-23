@@ -10,36 +10,44 @@ import Addr from '../../components/Addr';
 
 const KnowingPage = () => {
   return (
-    <div className='relative w-full h-full overflow-hidden'>
+    <div className='relative w-full h-full overflow-hidden '>
         <Navbar />
         <img className='w-full h-[550px]  mt-3' src='https://goonj.org/wp-content/uploads/2018/06/final.png' alt='' />
-        <div className='absolute top-[284px] w-full mx-auto flex items-center justify-center   text-white text-4xl leading-9 font-medium	'>Knowing Goonj</div>
+        <div className='absolute top-32 w-full mx-auto flex items-center justify-center   text-white text-4xl leading-9 font-medium	'>Knowing Goonj</div>
         <Box1/>
-        {
-          Value.map((item)=> {
-            return <Box2 className='w-full h-full flex flex-row my-5 p-1/2 mx-2' {...item}/>
-          })
-        }
-        {
-          Founder.map((item)=> {
-            return <Box2 className='w-full h-full flex my-5  m-auto ml-3 flex-row-reverse ' {...item}/>
-          })
-        }
-        {
-          Initiative.map((item)=>{
-            return <Box2 className='w-full h-full flex flex-row my-8 p-1/2 mx-3' {...item} />
-          })
-        }
-        {
-          Processing.map((item) => {
-            return <Box2 className='w-full h-full flex my-5  m-auto ml-3 flex-row-reverse ' {...item}/>
-          })
-        }
-        {
-          Principles.map((item)=>{
-            return <Box2 className='w-full h-full flex flex-row my-8 p-1/2 mx-3' {...item} />
-          })
-        }
+        <div className='bg-gray-100'>
+          <div>
+            {
+              Value.map((item)=> {
+                return <Box2 className='w-full h-full flex flex-row my-0 p-1/2 mx-2' {...item}/>
+              })
+            }
+          </div>
+          <div>
+            {
+              Founder.map((item)=> {
+                return <Box2 className='w-full h-full flex my-5  m-auto ml-3 flex-row-reverse ' {...item}/>
+              })
+            }
+          </div>
+          
+          {
+            Initiative.map((item)=>{
+              return <Box2 className='w-full h-full flex flex-row my-8 p-1/2 mx-3' {...item} />
+            })
+          }
+          {
+            Processing.map((item) => {
+              return <Box2 className='w-full h-full flex my-5  m-auto ml-3 flex-row-reverse ' {...item}/>
+            })
+          }
+          {
+            Principles.map((item)=>{
+              return <Box2 className='w-full h-full flex flex-row my-8 p-1/2 mx-3' {...item} />
+            })
+          }
+        </div>
+        
         <Award  img={'https://goonj.org/wp-content/uploads/2018/06/Ramon-Magsaysay-Award-Ceremony-2015-Manila-Philipines.jpg'}/>
         <Addr/>
         <Share/>

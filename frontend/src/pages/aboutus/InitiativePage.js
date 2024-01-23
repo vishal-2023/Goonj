@@ -10,8 +10,8 @@ const InitiativePage = () => {
   return (
     <div className='overflow-hidden'>
       <Navbar/>
-      <img className='w-full h-80  mt-3 mb-5' src='https://goonj.org/wp-content/uploads/2018/07/bann..png' alt='' />
-      <div className='absolute top-28 w-full mx-auto flex items-center  justify-center   text-black text-4xl leading-9 font-medium	'>Our Initiatives</div>  
+      <img className='w-full h-96  mt-3 mb-5' src='https://goonj.org/wp-content/uploads/2018/07/bann..png' alt='' />
+      <div className='absolute top-32 w-full mx-auto flex items-center  justify-center   text-white text-4xl leading-9 font-medium	'>Our Initiatives</div>  
       {
         body1.map((item)=>{
           return <Box2 className='w-full h-full flex mt-1/2 content' {...item}/>

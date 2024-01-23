@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 
 const Water = () => {
   return (
-    <div>
+    <div className='overflow-hidden'>
         <Navbar/>
         <img className='w-full h-96 bg-clip-content	  mt-3' src='https://goonj.org/wp-content/themes/charity-ngo-child/img/impact/water-banner.png' alt='' />
         <div className='absolute top-32 w-full mx-auto flex items-center justify-center   text-white text-4xl leading-9 font-medium'>Water</div>

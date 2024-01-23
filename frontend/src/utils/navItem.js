@@ -2370,3 +2370,76 @@ export const donateData=[
     },
 
 ]
+
+export const RahatImg=[
+    {
+        id:1,
+        title:"Not Alone Centers",
+        text:"Addressing the need for physical distancing for families living in small spaces with basic and essential facilities .",
+        img:"https://goonj.org/wp-content/uploads/2021/05/not-alone.jpg",
+    },
+    {
+        id:2,
+        title:"Medical Interventions",
+        text:"Reaching medical devices and medicine kits to frontline workers and families. ",
+        img:"https://goonj.org/wp-content/uploads/2021/05/medical.jpg"
+    },
+    {
+        id:3,
+        title:"Food Kits",
+        text:"Reaching comprehensive ration kits to the remotest parts all across the country.        ",
+        img:"https://goonj.org/wp-content/uploads/2021/05/ration-kit.jpg",  
+    },
+    {
+        id:4,
+        title:"Face Masks, Cloth Pads   ",
+        text:"Sanitary Cloth Pads (My Pads)- Making and reaching them to far flung places        ",
+        img:"https://goonj.org/wp-content/uploads/2021/05/mask.jpg",
+    },
+    {
+        id:5,
+        title:"Khichri Dhabas",
+        text:"Supporting the roadside eateries and reviving/running kitchens to ensure food security. ",
+        img:"https://goonj.org/wp-content/uploads/2021/05/khichri-dhaba.jpg  "
+    },
+    {
+        id:6,
+        title:"Missed-out Communities",
+        text:"Focusing on communities like the differently abled, HIV+, sex workers, devadasis and many more.        ",
+        img:"https://goonj.org/wp-content/uploads/2021/05/missing.jpg",
+    },
+    {
+        id:7,
+        title:"Working with Farmers",
+        text:"Procuring excess vegetables and fruits to reach out communities as food and nutrition support . ",
+        img:"https://goonj.org/wp-content/uploads/2021/05/WhatsApp-Image-2021-04-29-at-9.37.29-PM.jpeg"
+    },
+    {
+        id:8,
+        title:"Supporting Frontline Workers ",
+        text:"Reaching PPE kits, oximeters, medicines, masks , gloves and other essentials",
+        img:"https://goonj.org/wp-content/uploads/2021/05/frontline.jpeg"
+    },
+
+]
+
+export const RahatLensData=[
+    {
+        id:1,
+        img:"https://goonj.org/wp-content/uploads/2021/05/Rahat-Covid-2021-5.jpg",
+        title:"Decentralise, localise, customise",
+        data:"Catering to the diversity of India, we created partnerships to work with grassroot stakeholders in the rural areas, prioritising the voice and agency of local people.",
+    },
+    {
+        id:2,
+        img:"https://goonj.org/wp-content/uploads/2021/05/Rahat-Covid-2021-6.jpg",
+        title:"Economic Empowerment and partnerships",
+        data:"takeholders were given vocational training to make masks, and pads in the rural areas to generate livelihood. We bought directly from farmers, to enable their sustenance, and included their produce in our ration kits for CFW initiative.",
+    },
+    {
+        id:3,
+        img:"https://goonj.org/wp-content/uploads/2021/05/Rahat-Covid-2021-7.jpg",
+        title:"Focus on Missed-out Communities",
+        data:"Missed-out Communities such as tribals, people with disabilities, sex workers, transgender, devadasis etc. are oftentimes struggling for survival. We focused on these communities to ensure that they were not left behind during the same.",
+    },
+]

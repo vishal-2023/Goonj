@@ -54,30 +54,27 @@ const Navbar = () => {
 
   
   return (
-    <div className='w-full z-50 fixed bg-white mt-[-14px] border-2 p-2'>
-    <div className=' box-border h-12  w-12/13 p-4 border-0 flex flex-row items-center mx-auto justify-between'>
+    <div className='w-full z-50 fixed bg-white border-b  p-1'>
+    <div className=' box-border h-12 text-sm  w-12/13 p-4 border-0 flex flex-row items-center mx-auto justify-between'>
       <div>
         <NavLink to="/">
-          <img className='w-14 h-8' src='https://goonj.org/wp-content/uploads/2020/06/Goonj-logo-10June20.png' alt='img' />
+          <img className='w-24 p-2 h-full text-xl' src='https://goonj.org/wp-content/uploads/2020/06/Goonj-logo-10June20.png' alt='img' />
         </NavLink>
       </div>
-      <ul className='flex items-center z-40 text-sm justify-center gap-4'>
-        <li> 
-          <NavLink to="/"><FaHome/></NavLink>
-        </li>
+      <ul className='flex items-center z-40 justify-center text-sm font-semibold  gap-6'>
         <li className='relative h-16 flex flex-col items-center justify-center' onMouseEnter={handleMouseOver} onMouseLeave={handleMouseOut}>  
           
-          <NavLink >about us</NavLink>
+          <NavLink className=''>About us</NavLink>
           {firHovering && (
-            <div className='top-6 h-full z-50 absolute'>
+            <div className='top-5 h-full z-50 absolute '>
               <Menubar  dropDown={AboutdropDown} />
             </div>)  
           }    
         </li>
-        <li className='relative h-16 flex flex-col items-center justify-center' onMouseEnter={handleMouseOver1} onMouseLeave={handleMouseOut1}>
+        <li className='relative h-16 te flex flex-col items-center justify-center' onMouseEnter={handleMouseOver1} onMouseLeave={handleMouseOut1}>
           <NavLink > Impact </NavLink>
           {secHovering && (
-            <div className='top-6 absolute'>
+            <div className='top-5 absolute'>
             <Menubar  dropDown={impactdropDown} />
           </div>  
           )
@@ -88,7 +85,7 @@ const Navbar = () => {
           <NavLink>Get Involved</NavLink>
           {
            fifthHovering && (
-            <div className='top-6 right-9 absolute'>
+            <div className='top-5 right-9 absolute'>
             <Menubar  dropDown={getdropDown} />
           </div>  
           ) 
@@ -98,7 +95,7 @@ const Navbar = () => {
           <NavLink>Updates</NavLink>
           {
             thirdHovering && (
-              <div className='top-6 z-50 absolute'>
+              <div className='top-5 z-50 absolute'>
             <Menubar  dropDown={updatadropDown} />
           </div>
             )
@@ -108,7 +105,7 @@ const Navbar = () => {
           <NavLink>Contribute Material</NavLink>
           {
             fourHovering && (
-              <div className='top-6 right-16 absolute'>
+              <div className='top-5 right-16 absolute'>
             <Menubar  dropDown={contributedropDown} />
           </div>
             )
@@ -135,7 +132,7 @@ const Navbar = () => {
         <NavLink to="https://www.youtube.com/channel/UCCq8iYlmjT7rrgPI1VHzIHg"> <FaYoutube/> </NavLink>
         </div>
         <NavLink to="/donate/">
-          <button class="bg-red-500 p-2 px-4 text-white text-sm">CONTRIBUTE</button>
+          <button class="bg-red-500 py-2 rounded-md px-3 text-white font-semibold text-base">CONTRIBUTE</button>
         </NavLink>
         
       </div>

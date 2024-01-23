@@ -7,7 +7,7 @@ import Impact from '../components/Impact';
 
 const HomePage = () => {
   return (
-    <div>
+    <div className='overflow-hidden'>
         <Navbar/>
         <Slider/> 
         <Content/>

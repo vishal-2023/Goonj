@@ -7,7 +7,7 @@ import { MediaData } from '../../utils/navItem'
 
 const Media = () => {
   return (
-    <div>
+    <div className='overflow-hidden'>
         <Navbar/>
         <div>
           <img className='w-full mt-2 h-[26rem]' src='https://goonj.org/wp-content/uploads/2018/05/Banner_media.png' alt='' />

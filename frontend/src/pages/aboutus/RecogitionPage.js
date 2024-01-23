@@ -5,7 +5,7 @@ import Share from '../../components/Share';
 
 const RecogitionPage = () => {
   return (
-    <div>
+    <div className='overflow-hidden'>
         <Navbar/>
         <img className='w-full h-[600px] mt-3' src='https://goonj.org/wp-content/uploads/2018/05/Ramon-Magsaysay-Award-15-4-1.jpg' alt='' />
         <div className='absolute top-80 w-full mx-auto flex items-center justify-center   text-white text-4xl leading-9 font-medium'>Awards & Recognitions</div>

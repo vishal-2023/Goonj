@@ -31,6 +31,7 @@ import Contribute from './pages/update/Contribute.js';
 import Donate from './pages/update/Donate.js';
 import Collection from './pages/update/Collection.js';
 import ComponentA from './components/ComponentA.js';
+import Rahat from './pages/Impact/Rahat.js';
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function App() {
         <Route path='/faq/' element={<FqPage/>}></Route>
         <Route path='/water/' element={<Water/>}></Route>
         <Route path='/dummy/:id' element={<Dummy/>}></Route>
+        <Route path='/support-covid-19-affected/' element={<Rahat/>}></Route>
         <Route path='/volunteer/' element={<Volunteer/>}></Route>
         <Route path='/internship/' element={<Internship/>}></Route>
         <Route path='/partner-with-us/' element={<Partner/>} />
