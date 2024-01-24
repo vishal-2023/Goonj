@@ -67,7 +67,7 @@ const ComponentA = () => {
                 </div>
             </div>
         </div> 
-        {/* <DonateBox/>    */}
+        
         <Guidelines/>
         <Contribute/>
         <Footer/>

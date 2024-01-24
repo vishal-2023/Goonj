@@ -5,8 +5,8 @@ import Box1 from '../../components/Box1';
 import Footer from '../../components/Footer';
 import { Value,Founder,Initiative,Processing ,Principles} from '../../utils/navItem';
 import Box2 from '../../components/Box2';
-import Award from '../../components/Award';
 import Addr from '../../components/Addr';
+import { Award } from '../../components/Impact';
 
 const KnowingPage = () => {
   return (

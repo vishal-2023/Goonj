@@ -2443,3 +2443,96 @@ export const RahatLensData=[
         data:"Missed-out Communities such as tribals, people with disabilities, sex workers, transgender, devadasis etc. are oftentimes struggling for survival. We focused on these communities to ensure that they were not left behind during the same.",
     },
 ]
+
+export const NavHome=[
+    {
+        id:1,
+        img:"https://goonj.org/wp-content/uploads/2023/12/GoonjRahat_Michaung-New.jpg",
+        link:"",
+    },
+    {
+        id:1,
+        img:"https://goonj.org/wp-content/uploads/2023/01/AR-website-banner-1.jpg",
+        link:"",
+    },
+    {
+        id:1,
+        img:"https://goonj.org/wp-content/uploads/2022/11/GARRD-slider.jpg",
+        link:"",
+    },
+    {
+        id:1,
+        img:"https://goonj.org/wp-content/uploads/2023/11/ODZ-Slider-on-Home-page-min-1536x560.png",
+        link:"",
+    },
+    {
+        id:1,
+        img:"https://goonj.org/wp-content/uploads/2023/05/Chaupal-2023-Header-for-webpage-shorta.jpg",
+        link:"",
+    },
+    {
+        id:1,
+        img:"https://goonj.org/wp-content/uploads/2023/04/DD-homepage-slider-2.jpg",
+        link:"",
+    },
+
+]
+
+
+export const dataa=[
+    {
+      id: 1,
+      image: "https://goonj.org/wp-content/uploads/2021/05/rahat-covid.jpg",
+      text: "Disaster Relief & Rehabilitation"
+    },
+    {
+      id:2,
+      image: "https://goonj.org/wp-content/themes/charity-ngo-child/img/8tabs/water.png",
+      text: "Water"
+    },
+    {
+      id:3,
+      image: "https://goonj.org/wp-content/themes/charity-ngo-child/img/8tabs/education.jpg",
+      text: "Education"
+    },
+    {
+      id:4,
+      image: "https://goonj.org/wp-content/themes/charity-ngo-child/img/8tabs/health.png",
+      text: "Health"
+    },
+    {
+      id:5,
+      image: "https://goonj.org/wp-content/themes/charity-ngo-child/img/8tabs/sanitation.png",
+      text: "Sanitation"
+    },
+    {
+      id:6,
+      image: "https://goonj.org/wp-content/themes/charity-ngo-child/img/8tabs/livelihood.png",
+      text: "Livelihood"
+    },
+    {
+      id:7,
+      image: "https://goonj.org/wp-content/themes/charity-ngo-child/img/8tabs/environment.png",
+      text: "Environment"
+    },
+    {
+      id:8,
+      image: "https://goonj.org/wp-content/themes/charity-ngo-child/img/8tabs/infra.png",
+      text: "Access & Infrastructure"
+    }
+  ]
+
+  export const dataa1 = [
+    {
+      id:1,
+      img: "https://goonj.org/wp-content/uploads/2023/11/Chaupal-2023-Mumbai-580x580.jpeg",
+    },
+    {
+      id:2,
+      img:"https://goonj.org/wp-content/uploads/2023/11/Junoon-extension.jpg",
+    },
+    {
+      id:3,
+      img:"https://goonj.org/wp-content/uploads/2023/10/Web-header-JGW-Page-580x608.jpg",
+    }
+  ]

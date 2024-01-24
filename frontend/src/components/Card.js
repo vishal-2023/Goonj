@@ -3,13 +3,13 @@ import React from 'react'
 const Card = (props) => {
 
   const handle = {
-    width : props.width || '4/5'
+    width : props.width || 'fit'
   }
 
   return (
-    <div className='flex items-center justify-center relative w-1/4 mx-auto'>
-        <img style={handle} className='m-1 p-0' src={props.image} alt='' />
-        <div className='absolute text-xl text-stone-300 font-bold'>{props.text}</div>
+    <div className=' flex flex-row text-center justify-around flex-wrap gap-10 relative w-72 h-64 hover:scale-95'>
+         <img  className='w-full h-full rounded-lg' src={props.image} alt='' />
+         <div className='w-full absolute text-2xl text-center mt-20 text-white font-semibold'>{props.text}</div> 
     </div>
   )
 }

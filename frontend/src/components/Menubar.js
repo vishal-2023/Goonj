@@ -14,8 +14,7 @@ const Menubar = ({dropDown}) => {
                     <NavLink className='' to={item.path} key={item.id}>      
                         {item.title}
                     </NavLink>
-                    }
-                     
+                    }  
                     </li>
                 })
             }

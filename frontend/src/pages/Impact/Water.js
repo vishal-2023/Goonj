@@ -1,7 +1,6 @@
 import React from 'react'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
-import SubItem from '../../components/SubItem'
 import {WaterData} from '../../utils/navItem'
 import { FaArrowRight } from 'react-icons/fa'
 import { Link } from 'react-router-dom' 
