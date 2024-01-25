@@ -3,15 +3,15 @@ import { FaFacebook ,FaTwitter,FaInstagram,FaYoutube} from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <div className='w-full bg-[#d94b38] text-white text-lg '>
-        <div className='w-10/12 mx-auto text-wrap  py-7 flex flex-col flex-wrap gap-9'>
-        <div className='flex flex-col flex-wrap gap-5'>
+    <div className='w-full bg-[#d94b38]  text-white text-lg '>
+        <div className='w-10/12 mx-auto text-wrap  py-7 homeContent flex flex-col flex-wrap gap-9'>
+        <div className='w-full h-full flex flex-col flex-wrap text-wrap homeContent1 gap-5'>
             <div>Disclaimer</div>
             <div>No third party agency is working on behalf of Goonj for any recruitment, trainings, camps or other activities related to Goonj. Please check/consult with Goonj directly to get correct information or assistance. Please beware of any unwarranted claims made by anyone on our behalf. Kindly bring any such claims to our notice for immediate attention and action.</div>
             <div>Goonj doesn't charge any money from anyone for these activities. So if you come across any individual/ organization making a monetary demand in our name please bring it to our notice immediately on mail@goonj.org
             </div>
         </div>
-        <div className='flex flex-row  gap-32 flex-wrap'>
+        <div className='w-full h-full flex flex-row  text-wrap gap-32 flex-wrap homeContent'>
             <div>
                 <div>Contact us</div>
                 <div> Registered Office Address :J-93, Sarita Vihar, New Delhi-110076</div>
