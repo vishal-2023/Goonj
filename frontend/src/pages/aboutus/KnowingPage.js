@@ -23,13 +23,6 @@ const KnowingPage = () => {
               })
             }
           </div>
-          <div>
-            {
-              Founder.map((item)=> {
-                return <Box2 className='w-full md:h-[20rem] xl:h-full h-full flex my-5  m-auto md:ml-3 md:flex-row-reverse ' {...item}/>
-              })
-            }
-          </div>
           
           {
             Initiative.map((item)=>{
