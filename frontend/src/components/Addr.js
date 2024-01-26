@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Addr = () => {
   return (
-    <div className='w-full flex flex-row gap-12 items-center justify-evenly my-14 mx-0'>
+    <div className='w-full   flex flex-col text-wrap text-sm md:text-base md:flex-row   gap-12 items-center justify-evenly my-14 md:mx-5'>
         <div className='flex flex-col items-center justify-center gap-5'>
             <div><FaLocationArrow/></div>
             <div>J-93, Sarita Vihar, New Delhi- 110076</div>
@@ -17,7 +17,7 @@ const Addr = () => {
             <div><FaPhone/></div>
             <div>011- 41401216, 26972351</div>
         </div>
-        <div className='flex flex-col items-center justify-center gap-5'>
+        <div className='flex flex-col items-center justify-center gap-5 md:mx-8'>
             <Link to="https://www.facebook.com/goonj.org "> 
                 <FaFacebook/>
             </Link>

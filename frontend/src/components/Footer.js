@@ -18,11 +18,11 @@ const Footer = () => {
                 <div>mail@goonj.org</div>
                 <div>Call Us: 011-26972351, 41401216</div>
             </div>
-            <div className='flex flex-col flex-wrap gap-4'>
+            <div className=' min-[320px]:w-64 flex flex-col flex-wrap gap-4'>
                 <div>Write to us</div>
-                <label className='bg-[inherit]'>
+                <label className='w-full bg-[inherit]'>
                     <div>Select Subject</div>
-                    <select className='bg-[inherit] border-2 mt-2 text-white'>
+                    <select className='bg-[inherit] w-full border-2 mt-2 text-white'>
                         <option className='text-black' value="--">--</option>
                         <option className='text-black' value="Internship/volunteering">Internship/volunteering</option>
                         <option className='text-black' value="Collection drives">Collection drives</option>
@@ -32,17 +32,17 @@ const Footer = () => {
                     </select>
                         
                 </label>
-                <label>
+                <label className='w-full'>
                     <div>Your Email: (required)</div>
                     <input
                     type="text" 
-                    className='mt-2 border-2 w-80 border-white bg-inherit'
+                    className='mt-2 w-64 border-2 md:w-80 border-white bg-inherit'
                     >
                     </input>
                 </label>
                 <label className='w-full '>
                     <div className='mb-3'>Your Message</div>
-                    <textarea className='text-white border-2 bg-inherit w-96 h-60' name="comment" form="usrform">
+                    <textarea className='w-full text-white border-2 bg-inherit md:w-96 h-40 md:h-60' name="comment" form="usrform">
                     </textarea>
                 </label>
                 <button className='border-2 p-1 w-1/3  mt-5 border-white bg-inherit'>Send</button>
