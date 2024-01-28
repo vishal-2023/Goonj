@@ -26,25 +26,25 @@ const Recycle = () => {
     <div className='overflow-hidden'>
         <Navbar/>
         <div className='w-full h-2/3  mt-14' >
-            <img className='w-full h-[34rem] ' src='https://goonj.org/wp-content/uploads/2023/03/KKR-2023-webpage-header-1.jpg' alt=''/>
+            <img className='w-full lg:h-[34rem] ' src='https://goonj.org/wp-content/uploads/2023/03/KKR-2023-webpage-header-1.jpg' alt=''/>
         </div>
-        <div className='w-1/2 mx-auto border my-10 py-14 flex flex-col gap-6 flex-wrap text-center p-7'>
-            <div className='text-3xl font-semibold text-red-500'>Background</div>
-            <div className='text-xl font-medium '>School to School builds a relationship of empathy and dignity between urban and rural children and works to bridge the gap of resources between the urban and rural centers of learning</div>
-            <div className='text-lg font-medium '>To know more about the School to School initiative, please visit</div>
-            <Link className='text-xl font-semibold text-red-500 hover:text-black'>https://goonj.org/s2s/</Link>
-            <div className='text-base font-medium '>As every child is starting to get busy with the new school session, how about recycling your last year’s school textbooks, notebooks, stationery and even supporting with new school supplies? We will ensure it is reached to our fellow children in rural India with Goonj’s ‘Khushiyon Ka Recycle’ campaign to fill in the material gaps in schools in remotest areas across India.</div>
-            <div className='text-base font-medium '>Join us in our effort by contributing and by setting up collections camps in your residential areas, schools, institutions and offices.. Feel free to reach out to us on<Link className='text-xl font-semibold text-red-500 hover:text-black'> mail@goonj.org </Link>to take part in the campaign</div>
+        <div className='lg:w-1/2 mx-auto border  lg:my-10 md:py-14 flex flex-col gap-6 flex-wrap text-center p-7'>
+            <div className='md:text-3xl text-lg font-semibold text-red-500'>Background</div>
+            <div className='md:text-xl text-sm font-medium '>School to School builds a relationship of empathy and dignity between urban and rural children and works to bridge the gap of resources between the urban and rural centers of learning</div>
+            <div className='md:text-lg text-sm font-medium '>To know more about the School to School initiative, please visit</div>
+            <Link className='md:text-xl font-semibold text-red-500 hover:text-black'>https://goonj.org/s2s/</Link>
+            <div className='text-xs md:text-base font-medium '>As every child is starting to get busy with the new school session, how about recycling your last year’s school textbooks, notebooks, stationery and even supporting with new school supplies? We will ensure it is reached to our fellow children in rural India with Goonj’s ‘Khushiyon Ka Recycle’ campaign to fill in the material gaps in schools in remotest areas across India.</div>
+            <div className='text-xs md:text-base font-medium '>Join us in our effort by contributing and by setting up collections camps in your residential areas, schools, institutions and offices.. Feel free to reach out to us on<Link className='lg:text-xl font-semibold text-red-500 hover:text-black'> mail@goonj.org </Link>to take part in the campaign</div>
         </div>
-        <div className='w-full flex flow-row mx-auto bg-blue-400 p-10' >
-            <div className='w-2/5 mx-auto text-center text-3xl font-bold text-white hover:text-red-500'>With Material, Money Matters.. For logistical costs</div>
+        <div className='w-full flex flex-col gap-2 text-sm md:text-base lg:gap-5 lg:flow-row mx-auto bg-blue-400 p-10' >
+            <div className='lg:w-2/5 mx-auto text-center lg:text-3xl font-bold text-white hover:text-red-500'>With Material, Money Matters.. For logistical costs</div>
             <Link className='w-60 mx-auto flex flex-row gap-3 bg-white text-red-500 items-center justify-center hover:bg-red-500 hover:text-white'>
             <FaHandPointRight/>
-            <Link className=' '> Click To Contribute</Link>
+            <Link className=' md:p-3'> Click To Contribute</Link>
             </Link>
         </div>
 
-        <div className='w-1/2 mx-auto my-10 text-2xl font-medium text-center hover:text-red-500'>Glimpses from the Ground</div>
+        <div className='lg:w-1/2 mx-auto my-6 lg:my-10 md:text-2xl font-medium text-center hover:text-red-500'>Glimpses from the Ground</div>
             <div className='w-full h-full flex flex-row items-evenly justify-center flex-wrap'> 
                 <div className=''>
                 {

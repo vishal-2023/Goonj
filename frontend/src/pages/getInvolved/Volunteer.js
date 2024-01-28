@@ -9,14 +9,14 @@ const Volunteer = () => {
   return (
     <div className='overflow-hidden w-full'>
         <Navbar/>
-        <div className='w-full h-full  mt-2' >
+        <div className='w-full h-full mt-10 md:mt-2' >
             <img src='https://goonj.org/wp-content/uploads/2018/05/Volunteer-Banner.jpg' alt=''/>
         </div>
-        <div className='absolute top-72 w-full mx-auto flex items-center justify-center   text-white text-4xl leading-9 font-medium'>
+        <div className='absolute top-20 md:top-36 lg:top-72 w-full mx-auto flex items-center justify-center   text-white md:text-4xl leading-9 font-medium'>
         Volunteer
         </div>
         <div className='w-full my-10'>
-            <p className='w-10/12  text-base leading-6 font-semibold mx-auto'>
+            <p className='w-10/12 text-sm md:text-base leading-6 font-semibold mx-auto'>
             “Volunteers don’t necessarily have time, but they have heart. As Volunteer, you will learn not just more about the needs of others, you will also learn more about your own needs and you will discover that in helping other, you help yourself most of all.<br/><br/>
             A Volunteer can be anybody. There is no age limit to begin a volunteer, no preferred categories, no salary specification, no special degree or work experience. All that is required is a dedication to the cause, sincerity about the work that one in doing and commitment to a regular and sustained efforts with the organisation.” </p>
             <address className='w-10/12 font-semibold text-base flex items-end justify-end'>
