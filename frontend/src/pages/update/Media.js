@@ -10,13 +10,13 @@ const Media = () => {
     <div className='overflow-hidden'>
         <Navbar/>
         <div>
-          <img className='w-full mt-2 h-[26rem]' src='https://goonj.org/wp-content/uploads/2018/05/Banner_media.png' alt='' />
-          <div className='absolute top-40 z-0 w-full mx-auto flex items-center justify-center   text-black text-3xl leading-9 font-medium'>Goonj in Media</div>  
+          <img className='w-full mt-14 lg:mt-2 lg:h-[26rem]' src='https://goonj.org/wp-content/uploads/2018/05/Banner_media.png' alt='' />
+          <div className='absolute m top-16 md:top-20 lg:top-40 z-0 w-full mx-auto flex items-center justify-center   text-black md:text-3xl leading-9 font-medium'>Goonj in Media</div>  
         </div>
-        <div className='w-11/12 mx-auto my-10 flex flex-wrap justify-between  gap-6'>
+        <div className='w-full mx-auto md:my-10 flex flex-wrap justify-between  md:gap-6'>
           {
             MediaData.map((item)=>{
-              return <Save key={item.id} {...item}/>
+              return <Save className='' key={item.id} {...item}/>
             })
           }
         </div>

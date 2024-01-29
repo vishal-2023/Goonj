@@ -1858,52 +1858,52 @@ export const partner =[
 export const DignityData=[
     {
         id:1,
-        img:"https://goonj.org/wp-content/uploads/2023/08/Junoon_2023_IMG_0754.jpg",
+        imgdata:"https://goonj.org/wp-content/uploads/2023/08/Junoon_2023_IMG_0754.jpg",
     },
     {
         id:2,
-        img:"https://goonj.org/wp-content/uploads/2023/08/Junoon_2023_IMG_0732.jpg",
+        imgdata:"https://goonj.org/wp-content/uploads/2023/08/Junoon_2023_IMG_0732.jpg",
     },
     {
         id:3,
-        img:"https://goonj.org/wp-content/uploads/2023/08/Junoon_2023_IMG_0683.jpg",
+        imgdata:"https://goonj.org/wp-content/uploads/2023/08/Junoon_2023_IMG_0683.jpg",
     },
     {
         id:4,
-        img:"https://goonj.org/wp-content/uploads/2023/08/Junoon_2023_IMG_0667.jpg",
+        imgdata:"https://goonj.org/wp-content/uploads/2023/08/Junoon_2023_IMG_0667.jpg",
     },
     {
         id:5,
-        img:"https://goonj.org/wp-content/uploads/2023/08/Junoon_2023_IMG_0654.jpg",
+        imgdata:"https://goonj.org/wp-content/uploads/2023/08/Junoon_2023_IMG_0654.jpg",
     },
     {
         id:6,
-        img:"https://goonj.org/wp-content/uploads/2023/08/Junoon_2023_IMG_0635.jpg",
+        imgdata:"https://goonj.org/wp-content/uploads/2023/08/Junoon_2023_IMG_0635.jpg",
     },
     {
         id:7,
-        img:"https://goonj.org/wp-content/uploads/2023/08/Junoon_2023_IMG_0615.jpg",
+        imgdata:"https://goonj.org/wp-content/uploads/2023/08/Junoon_2023_IMG_0615.jpg",
     },
     {
         id:8,
-        img:"https://goonj.org/wp-content/uploads/2023/08/Junoon_2023_IMG_0572.jpg",
+        imgdata:"https://goonj.org/wp-content/uploads/2023/08/Junoon_2023_IMG_0572.jpg",
     },
     
     {
         id:9,
-        img:"https://goonj.org/wp-content/uploads/2023/08/Junoon_2023_IMG_0754.jpg",
+        imgdata:"https://goonj.org/wp-content/uploads/2023/08/Junoon_2023_IMG_0754.jpg",
     },
     {
         id:10,
-        img:"https://goonj.org/wp-content/uploads/2023/08/Junoon_2023_IMG_0732.jpg",
+        imgdata:"https://goonj.org/wp-content/uploads/2023/08/Junoon_2023_IMG_0732.jpg",
     },
     {
         id:11,
-        img:"https://goonj.org/wp-content/uploads/2023/08/Junoon_2023_IMG_0683.jpg",
+        imgdata:"https://goonj.org/wp-content/uploads/2023/08/Junoon_2023_IMG_0683.jpg",
     },
     {
         id:12,
-        img:"https://goonj.org/wp-content/uploads/2023/08/Junoon_2023_IMG_0667.jpg",
+        imgdata:"https://goonj.org/wp-content/uploads/2023/08/Junoon_2023_IMG_0667.jpg",
     },
 ]
 

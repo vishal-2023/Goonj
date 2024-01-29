@@ -3,7 +3,7 @@ import { FaRupeeSign } from 'react-icons/fa'
 
 const DonateBox = (props) => {
   return (
-    <div className={props.data}>
+    <div className={` ${props.data}`}>
         <div className='flex flex-row justify-between  '>
             <button className='p-2 px-7 rounded-md bg-[#ededed]'>One Time</button>
             <button className='p-2 px-7 rounded-md bg-[#ededed]'>Monthly</button>

@@ -12,25 +12,25 @@ const Collection = () => {
     <div className='bg-[#fcfcfc] overflow-hidden'>
         <Navbar/>
         <div className='colored-image'>
-          <img className='w-full mt-2 h-[20rem]' src='https://goonj.org/wp-content/uploads/2018/06/banner_collection-Camp.png' alt='' />
-          <div className='absolute top-40 z-0 w-full mx-auto flex items-center justify-center   text-white text-4xl leading-9 font-bold'> Collection Camps </div>  
+          <img className='w-full mt-14 md:mt-2 md:h-[20rem]' src='https://goonj.org/wp-content/uploads/2018/06/banner_collection-Camp.png' alt='' />
+          <div className='absolute top-5 md:top-40 z-0 w-full mx-auto flex items-center justify-center   text-white md:text-4xl leading-9 font-bold'> Collection Camps </div>  
         </div>
-        <div className='m-10 flex flex-col gap-5'>
+        <div className=' m-4 md:m-10 flex flex-col gap-5'>
             <div>We request you to kindly read through these <Link to="https://goonj.org/wp-content/uploads/2021/07/material-contribution-guidelines-in-camps.jpg" className="text-red-500 underline text-sm font-semibold"> Guidelines </Link> for contributing material.</div>
             <div>If you wish to organise the collection drive in your residential area/office/school etc,<Link className='text-red-500 text-sm font-semibold underline' to='https://docs.google.com/forms/d/e/1FAIpQLScPImdR5r2qtnlOtY63nRPVrv7Wsym8fTsQzqcXy3Tc4DT84w/viewform' > Please fill this form</Link></div>
             <div>You could also contribute at Goonj's Joint Campaigns - through your other favorite brands - please scroll down to know more.</div>
             <div>Here are the organized Collection Camp set up in different cities, where you can contribute.</div>
             <div>
                 <input
-                className='w-1/6 border-2 p-2 border-red-500'
+                className='lg:w-1/6 border-2 p-2 border-red-500'
                 type='text'
                 placeholder='Address/Volunteer'
                 />
                 <button className='border-2 m-3 p-2 px-4 border-red-500 hover:bg-red-500'>Search</button>
             </div>
 
-            <div className='w-10/13 mx-auto bg-white flex flex-wrap flex-row  '>
-                <div className='w-1/2 mx-auto'>
+            <div className='w-10/13 mx-auto bg-white flex flex-col flex-wrap md:flex-row  '>
+                <div className='md:w-1/2 mx-auto'>
                     {
                     droppingData.map((item)=>{
                         return <div className='border-2 m-0.5 py-2'>
@@ -49,7 +49,7 @@ const Collection = () => {
                     })
                     } 
                 </div>
-                <div className='w-1/2'>
+                <div className='md:w-1/2'>
                     {
                     droppingData1.map((item)=>{
                         return <div className='border-2 m-0.5 py-2'>
@@ -71,7 +71,7 @@ const Collection = () => {
                 </div>
             </div>
 
-            <div className='text-center text-xl font-bold'>Goonj's Joint Campaigns - Contribute to Goonj through your other favorite brands</div>
+            <div className='text-center md:text-xl font-bold'>Goonj's Joint Campaigns - Contribute to Goonj through your other favorite brands</div>
             <div className='text-base'>Throughout the year, Goonj jointly runs campaigns with various apparel brands and e-commerce platforms, in which they extend a hand in supporting Goonj by channelising material to our offices. Do drop by at your nearest store as per the following location details or visit the websites to send material directly to Goonj.</div>
             <div className='text-lg font-semibold'>Marks & Spencer</div>
             <div>In its select stores, Marks & Spencer is accepting CLOTHES only, which are then delivered to Goonj.
@@ -84,15 +84,15 @@ const Collection = () => {
             
         </div>
         <div className='w-full flex flex-col gap-6 bg-[#333]  py-16'>
-            <div className='text-white text-2xl mx-6 font-semibold'>Want to organize Collection camp</div>
+            <div className='text-white text-center  md:text-2xl mx-6 font-semibold'>Want to organize Collection camp</div>
             <div className='text-white text-center'>Here is the perfect guide</div>
-            <div className='flex flex-row gap-5 mx-auto'>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/-INMvztCz44?si=wBPeSpbxTWpVGDNK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/F4ct5Sqafnw?si=l7jQCD_6dWxm8u6a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div className='flex w-full h-full flex-col md:flex-row justify-center gap-5 mx-auto'>
+            <iframe className='p-2 lg:w-1/3 lg:h-60' src="https://www.youtube.com/embed/-INMvztCz44?si=wBPeSpbxTWpVGDNK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe className='p-2 lg:w-1/3 lg:h-60' src="https://www.youtube.com/embed/F4ct5Sqafnw?si=l7jQCD_6dWxm8u6a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>
         <div className=''>
-            <div className='text-center my-10 text-4xl font-semibold'>FAQs</div>
+            <div className='text-center my-10 text-2xl lg:text-4xl font-semibold'>FAQs</div>
             {
                 dropFaq.map((item)=>{
                     return <ContentData id={item.id} {...item}/>

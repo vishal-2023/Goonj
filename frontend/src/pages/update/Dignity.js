@@ -6,10 +6,10 @@ const Dignity = () => {
   return (
     <div>
         <Navbar/>
-        <div className='w-11/12 mx-auto'>
+        <div className='w-11/12 mx-auto pt-14 md:pt-0'>
             <img className='w-full h-full' src='https://goonj.org/wp-content/uploads/2020/10/Dignity-Diaries-slider.jpg' alt='' />
         </div>
-        <div className='mx-auto w-1/2'>
+        <div className='mx-auto w-11/12 md:w-9/12 lg:w-1/2'>
             <img src='https://goonj.org/wp-content/uploads/2023/12/SM-Post-on-DD-Special-edition-.png' alt='' />
         </div>
         
