@@ -4,16 +4,10 @@ import './CubeComponent.css';
 
 const CubeComponent = () => {
   return (
-    <div className="cube-container  scroll-smooth ">
-      <div className="cube ">
-        <div className="face"></div>
-        <div className="face"></div>
-        <div className="face"></div>
-        <div className="face"></div>
-        <div className="face"></div>
-        <div className="face"></div>
-      </div>
+    <div className='w-screen h-screen pt-32 bg-slate-800'>
+      <div class="custom-loader mx-auto "></div>
     </div>
+    
   )
 }
 export default CubeComponent;

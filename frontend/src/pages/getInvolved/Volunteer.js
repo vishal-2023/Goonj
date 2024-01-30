@@ -3,7 +3,6 @@ import Navbar from '../../components/Navbar';
 import Share from '../../components/Share';
 import Footer from '../../components/Footer';
 import { Link } from 'react-router-dom';
-import CubeComponent from '../../components/CubeComponent';
 
 const Volunteer = () => {
   return (
@@ -26,7 +25,7 @@ const Volunteer = () => {
         </div>
         <Share/>
         <Footer/>
-        <CubeComponent/>
+        
     </div>
   )
 }

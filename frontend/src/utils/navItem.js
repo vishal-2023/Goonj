@@ -174,16 +174,6 @@ export const updatadropDown =[
     },
     {
         id:7,
-        title:"Disaster Photo Exibition",
-        path:"/photo-exhibition/"
-    },
-    {
-        id:8,
-        title:"Blog",
-        path:"/blog/"
-    },
-    {
-        id:9,
         title:"Media Coverage",
         path:"/goonj-in-media/"
     },

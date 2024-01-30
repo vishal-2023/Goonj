@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Impact from '../components/Impact';
@@ -6,6 +6,10 @@ import { NavHome } from '../utils/navItem';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import CubeComponent from '../components/CubeComponent';
+
+// Import your Loader component here
+//import Loader from '../components/Loader'; // Adjust the path as needed
 
 export const ContentData = () => {
   return (
@@ -17,6 +21,7 @@ export const ContentData = () => {
 }
 
 const HomePage = () => {
+  const [isLoading, setIsLoading] = useState(true);
 
   const settings = {
     dots: true,
@@ -26,27 +31,38 @@ const HomePage = () => {
     slidesToScroll: 1,
     autoplay: true,        
     autoplaySpeed: 3000,
-      
   };
 
+  useEffect(() => {
+    // Simulate data loading
+    setTimeout(() => {
+      setIsLoading(false); // Set loading to false after data is loaded
+    }, 2000);
+  }, []);
 
   return (
     <div className='overflow-hidden'>
         <Navbar/>
-        <div className=' w-full mt-14 md:mt-16 mx-auto h-full   md:mb-10'>
-            <Slider {...settings}>
-                {
-                NavHome.map((props) => (
-                    <div key={props.id} className= 'w-full  h-32  md:h-[22rem]  lg:h-[28rem] xl:h-[34rem] shadow-lg '>
-                        <img className='w-full h-full md:w-full md:h-full mx-auto md:px-5 ' src={props.img} alt=''/>                        
-                    </div>
+        {isLoading ? (
+          <CubeComponent/>
+        ) : (
+          <div>
+            <div className=' w-full mt-14 md:mt-16 mx-auto h-full   md:mb-10'>
+              <Slider {...settings}>
+                {NavHome.map((props) => (
+                  <div key={props.id} className='w-full  h-32  md:h-[22rem]  lg:h-[28rem] xl:h-[34rem] shadow-lg '>
+                    <img className='w-full h-full md:w-full md:h-full mx-auto md:px-5 ' src={props.img} alt=''/>                        
+                  </div>
                 ))}
-            </Slider>
-        </div>
-        <ContentData/>
-        <Impact/>
-        <Footer/>
+              </Slider>
+            </div>
+            <ContentData/>
+            <Impact/>
+            <Footer/>
+          </div>
+         )} 
     </div>
   )
 }
+
 export default HomePage;

@@ -138,9 +138,9 @@ export const Carousel = ({ donateData }) => {
 
 export const Guidelines =()=>{
   return(
-    <div className='flex flex-col gap-4  w-10/12 md:w-full lg:w-10/12 mx-auto text-center'>
+    <div className='flex flex-col gap-4  w-10/12 md:w-full lg:w-full mx-auto text-center'>
       <div className='text-3xl font-semibold text-red-500'>Guidelines</div>
-      <div className='flex w-full flex-wrap flex-col md:flex-row  justify-center gap-3 '>
+      <div className='flex w-full  flex-col md:flex-row md:flex-wrap lg:flex-nowrap  justify-center gap-3 '>
         <div className='md:w-1/3 px-10 leading-5  mt-3 shadow-xl rounded-xl'>
         As per Income Tax guidelines, organizations will have to mandatorily generate certificate 10BE for contributors. For this, contributors must provide their complete address and a Govt recognized unique identification number.
         </div>
@@ -163,7 +163,7 @@ export const Guidelines =()=>{
 export const Contribute =() =>{
   return(
     <div>
-      <div className='text-center mt-10 md:mt-0 md:my-10 text-3xl font-medium text-red-500'>Contribute Offline</div>
+      <div className='text-center mt-10 lg:mt-16 md:mt-0 md:my-10 text-3xl font-medium text-red-500'>Contribute Offline</div>
         <div className='lg:w-10/12 p-10 shadow-xl mx-auto flex flex-col md:flex-row gap-4 text-wrap text-center justify-between'>
         <div>
           <div className='text-xl text-red-500 font-semibold'>For All Indian Nationals</div>
@@ -216,11 +216,13 @@ const Donate = () => {
     <div className='overflow-hidden'>
         <Navbar/>
         <div className='pt-12 relative'>
-            <img className='w-full md:h-[30rem]' src='https://goonj.org/donate/assets/images/banner-image.jpg' alt='' />
-            {/* <DonateBox  data={'absolute top-32  left-20 p-4 text-red-500 w-1/3 h-4/6 rounded-2xl flex flex-col gap-3 bg-white'} /> */}
+            <img className='w-full lg:h-[30rem]' src='https://goonj.org/donate/assets/images/banner-image.jpg' alt='' />
+            <div className='hidden lg:block'>
+              <DonateBox  data={'absolute lg:top-32  left-20 lg:p-4 text-red-500 lg:w-1/3 lg:h-4/6 rounded-2xl flex flex-col gap-3 bg-white'} />
+            </div>
         </div>
-        <div className='m-1'>
-          <DonateBox/>
+        <div className='block lg:hidden '>
+          <DonateBox data={'md:mx-36 lg:mx-0 lg:my-0 md:my-3 m-1'} />
         </div>
         <div>
           <div className='text-center my-5 text-lg md:text-4xl font-semibold text-red-500'>Our Campaigns</div>

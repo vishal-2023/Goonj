@@ -1,37 +1,38 @@
-/* 3D cube animation */
-.cube-container {
-    perspective: 800px; /* Perspective depth for 3D effect */
-    width: 200px;
-    height: 200px;
-    margin: 100px auto;
-  }
-  
-  .cube {
-    width: 100%;
-    height: 100%;
-    transform-style: preserve-3d;
-    transform: rotateX(45deg) rotateY(45deg); /* Initial rotation */
-    animation: rotateCube 4s linear infinite; /* Rotation animation */
-  }
-  
-  .face {
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    background-color: #3498db; /* Blue color */
-    border: 2px solid #fff;
-  }
-  
-  .face:nth-child(1) { transform: translateZ(100px); } /* Front face */
-  .face:nth-child(2) { transform: rotateY(180deg) translateZ(100px); } /* Back face */
-  .face:nth-child(3) { transform: rotateY(-90deg) translateZ(100px); } /* Left face */
-  .face:nth-child(4) { transform: rotateY(90deg) translateZ(100px); } /* Right face */
-  .face:nth-child(5) { transform: rotateX(90deg) translateZ(100px); } /* Top face */
-  .face:nth-child(6) { transform: rotateX(-90deg) translateZ(100px); } /* Bottom face */
-  
-  /* Keyframe animation for cube rotation */
-  @keyframes rotateCube {
-    0% { transform: rotateX(45deg) rotateY(45deg); }
-    100% { transform: rotateX(405deg) rotateY(405deg); }
-  }
-  
+.custom-loader {
+  --R:60px;
+  --g1:#766DF4 96%, #0000;
+  --g2:#E4E4ED 96%, #0000;
+  width: calc(2*var(--R));
+  height:calc(2*var(--R));
+  border-radius:50%;
+  display: grid;
+  -webkit-mask:linear-gradient(#000 0 0);
+  animation: s10 2s infinite linear;
+}
+
+.custom-loader::before,
+.custom-loader::after{
+  content:"";
+  grid-area: 1/1;
+  width:50%;
+  background:
+    radial-gradient(farthest-side,var(--g1)) calc(var(--R) + 0.866*var(--R) - var(--R)) calc(var(--R) - 0.5*var(--R)   - var(--R)),
+    radial-gradient(farthest-side,var(--g1)) calc(var(--R) + 0.866*var(--R) - var(--R)) calc(var(--R) - 0.5*var(--R)   - var(--R)),
+    radial-gradient(farthest-side,var(--g2)) calc(var(--R) + 0.5*var(--R)   - var(--R)) calc(var(--R) - 0.866*var(--R) - var(--R)),
+    radial-gradient(farthest-side,var(--g1)) 0 calc(-1*var(--R)),
+    radial-gradient(farthest-side,var(--g2)) calc(var(--R) - 0.5*var(--R)   - var(--R)) calc(var(--R) - 0.866*var(--R) - var(--R)),
+    radial-gradient(farthest-side,var(--g1)) calc(var(--R) - 0.866*var(--R) - var(--R)) calc(var(--R) - 0.5*var(--R)   - var(--R)),
+    radial-gradient(farthest-side,var(--g2)) calc(-1*var(--R))  0,
+    radial-gradient(farthest-side,var(--g1)) calc(var(--R) - 0.866*var(--R) - var(--R)) calc(var(--R) + 0.5*var(--R)   - var(--R));
+   background-size:calc(2*var(--R)) calc(2*var(--R));
+   background-repeat:no-repeat;
+}
+
+.custom-loader::after {
+ transform:rotate(180deg);
+ transform-origin:right;
+}
+
+@keyframes s10 {
+  100% {transform: rotate(-1turn)}
+}

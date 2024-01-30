@@ -7,14 +7,15 @@ import { RahatImg ,RahatLensData} from '../../utils/navItem'
 
 const RahatData=()=>{
     return(
-        <div className=' w-full text-wrap mx-auto my-10 flex flex-row gap-8 bg-gray-100'>
+        <div className=' w-full text-wrap mx-auto my-10 flex flex-col md:flex-row flex-wrap lg:flex-nowrap gap-8 bg-gray-100'>
             {
                 RahatLensData.map((item)=>{
-                    return <div key={item.id} className='w-1/3  h-[inherit] p-5  relative text-wrap'>
-                        <div className='absolute mx-10 bg-white  border-2 w-36 h-36 rounded-full'>
+                    return <div key={item.id} className ='lg:w-1/3  h-[inherit] p-5  relative text-wrap'>
+    
+                        <div className='absolute  bg-white  border-2 w-36 h-36 rounded-full'>
                         <img className='rounded-full w-full h-full' src={item.img} alt='' />
                         </div>
-                        <div className='border-2 mt-32 h-80 bg-white rounded-lg text-center p-8 flex flex-col gap-4'>
+                        <div className='border-2 mt-32 h-80 md:h-52 lg:h-80 bg-white rounded-lg text-center p-8 flex flex-col gap-4'>
                             <div className='text-lg font-semibold'>{item.title}</div>
                             <div className='text-base '>{item.data}</div>
                         </div>
@@ -50,16 +51,16 @@ const Rahat = () => {
     <div className='overflow-hidden'>
         <Navbar/>
         <div className='pt-5'>
-            <img className='w-full h-[30rem]' src='https://goonj.org/wp-content/uploads/2021/05/New-header-Updated-for-Rahat-covid-page.jpeg' alt='' />
+            <img className='w-full h-full md:h-[30rem]' src='https://goonj.org/wp-content/uploads/2021/05/New-header-Updated-for-Rahat-covid-page.jpeg' alt='' />
         </div>
         <div className='w-full  h-full '>
-            <img className='w-full h-96 shadow-lg p-5 rounded-3xl ' src={images[currentImage]} alt='' />
+            <img className='w-full md:h-96 shadow-lg p-5 rounded-3xl ' src={images[currentImage]} alt='' />
             <Link to='https://drive.google.com/file/d/175xV1lSPjkUwIWdpa2OnJApxlEomLCxl/view'>
-                <div className=' border-red-500 border-2 rounded-md shadow-sm w-fit p-3 text-base font-medium text-red-500 mt-3 mx-auto hover:text-white hover:bg-red-500'>Read Full Booklet</div>            
+                <div className=' border-red-500 border-2 rounded-md shadow-sm w-fit p-3 text-sm md:text-base font-medium text-red-500 mt-3 mx-auto hover:text-white hover:bg-red-500'>Read Full Booklet</div>            
             </Link>
         </div>
         <div className='my-10'>
-            <div className='text-center text-4xl font-bold'>Updates From the Ground</div>
+            <div className='text-center md:text-4xl font-bold'>Updates From the Ground</div>
             <div className='w-60 border-b-2 border-red-500 my-4 mx-auto'></div>
             <div className='flex flex-wrap justify-evenly gap-4'>
                 {
@@ -72,21 +73,21 @@ const Rahat = () => {
                     ))
                 }
             </div>
-            <div className='w-10/12  mx-auto flex flex-row gap-3 text-center my-10 text-3xl font-semibold text-red-500 '>
-                <div>
+            <div className='p-2 md:p-0 md:w-10/12  mx-auto flex flex-col md:flex-row gap-3 text-center md:mt-10 md:mb-32 md:text-3xl font-semibold text-red-500 '>
+                <div className='lg:w-1/2 lg:h-60'>
                     <div className='my-4'>Goonj’s work in 2021</div>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/zQwZrmuMkWw?si=yB2JBW52bgsUnyh7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe className='w-full h-full' src="https://www.youtube.com/embed/zQwZrmuMkWw?si=yB2JBW52bgsUnyh7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
-                <div>
+                <div className='lg:w-1/2 lg:h-60'>
                     <div className='my-4'>Goonj’s work in 2020</div>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/-pbxrgeeCLE?si=aX1HB563SX0wLqXZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe className='w-full h-full' src="https://www.youtube.com/embed/-pbxrgeeCLE?si=aX1HB563SX0wLqXZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
             </div>
-            <div className='w-full flex flex-row justify-center'>
-                <div className='w-1/2'>
+            <div className='w-full flex flex-col md:flex-row justify-center'>
+                <div className='md:w-1/2 p-3 md:p-0'>
                   <img className='w-full' src='https://goonj.org/wp-content/uploads/2021/05/PAGE-5-Our-Approach.jpeg' alt='ambulanceImg' />  
                 </div>
-                <div className='w-1/2 px-8 shadow-xl pt-3 flex flex-col text-wrap gap-4'>
+                <div className='md:w-1/2 px-8 shadow-xl pt-3 flex flex-col text-wrap gap-4'>
                     <div className='text-3xl font-semibold text-red-500'>Our Approach</div>
                     <div className='flex flex-col gap-3'>
                         <div><b>Decentralise, localise, customise</b> Respond to needs emerging from the ground. Work with local vendors, partners and volunteers to listen to what’s happening on ground, understand and fulfil the needs of the Missed-out Communities.</div>

@@ -48,6 +48,13 @@ function App() {
         <Route path='/100-stories-of-change/' element={<StoryChange/>}></Route>
         <Route path='/faq/' element={<FqPage/>}></Route>
         <Route path='/water/' element={<Water/>}></Route>
+        <Route path='/infrastructure/' element={<Water/>}></Route>
+        <Route path='/education/' element={<Water/>}></Route>
+        <Route path='/environment/' element={<Water/>}></Route>
+        <Route path='/sanitation/' element={<Water/>}></Route>
+        <Route path='/health/' element={<Water/>}></Route>
+        <Route path='/livelihood/' element={<Water/>}></Route>
+        <Route path='/disaster/' element={<Water/>}></Route>
         <Route path='/dummy/:id' element={<Dummy/>}></Route>
         <Route path='/support-covid-19-affected/' element={<Rahat/>}></Route>
         <Route path='/volunteer/' element={<Volunteer/>}></Route>
