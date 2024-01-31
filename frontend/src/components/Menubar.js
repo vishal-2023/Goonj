@@ -1,21 +1,24 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink,Link } from 'react-router-dom';
 
 const Menubar = ({dropDown}) => {
     
   return (
     <ul className='relative m-5 z-50 right-9 md:right-6'>
         {
-            <li className='absolute w-32 md:w-40 md:mt-5  flex flex-col  z-50 bg-slate-200 border-2'>
+            <li className='absolute w-28 md:w-40 lg:w-44 mt-1 md:m-0  md:mt-5  flex flex-col lg:p-0  z-50 bg-slate-200 border-2 '>
             {
                 dropDown.map((item) => {
-                return <li className='md:p-2   z-50 hover:bg-slate-100 text-base font-semibold' >
-                    {    
-                    <NavLink className='text-xs md:text-sm' to={item.path} key={item.id}>      
-                        {item.title}
+                return <Link  key={item.id} className=' border-white border border-b-0 md:border-0 md:p-2    z-50 hover:bg-slate-100 text-base font-semibold hover:text-red-500' >
+                    <NavLink to={item.path} >
+                        {    
+                        <div className='text-xs p-1 md:p-0 md:text-base lg:text-lg ' >      
+                            {item.title}
+                        </div>
+                        }  
                     </NavLink>
-                    }  
-                    </li>
+                    
+                    </Link>
                 })
             }
         </li>

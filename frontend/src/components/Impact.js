@@ -3,6 +3,7 @@ import Card from './Card'
 import Box from './Box'
 import Share from './Share'
 import {dataa1,dataa} from '../utils/navItem'
+import { Link } from 'react-router-dom'
 
 export const Award = (props) => {
   return (
@@ -13,11 +14,11 @@ export const Award = (props) => {
             `url(${props.img})`
         }}>
 
-          <div className='absolute text-sm mx-4 py-6 px-1 md:mx-10  text-white border-2 md:p-5 text-center md:text-2xl flex flex-col gap-3 md:leading-10 flex-wrap text-wrap md:py-20 rounded-xl font-bold'>
+          <div className='absolute text-sm mx-4 py-6 px-1 md:mx-10  text-white border-4 md:p-5 text-center md:text-base lg:text-2xl flex flex-col gap-3 md:leading-10 flex-wrap text-wrap md:py-20 rounded-xl font-bold'>
             <div>Awards and Recognitions</div>
             <div>Over the span of almost 2 decades, Goonj has won both National and International attention and </div>
             <div>recognition for its extensive work on non-issues and sustainable innovation.</div>
-            <button className='border-2 px-4 py-1 md:w-40 mx-auto'> Read me </button>
+            <Link className='border px-4 py-1 md:w-40 hover:bg-red-500 mx-auto' to='/milestones/'> Read me </Link>
 
           </div>
         </div>
@@ -35,7 +36,7 @@ const Impact = () => {
         <div className='w-11/12 flex  flex-row items-center justify-center gap-4 flex-wrap my-4  md:my-8 mx-auto'>
           {
             dataa.map( (info) => {
-              return <Card  {...info} />
+              return <Card key={info.id} {...info} />
             })
           }
         </div>
@@ -48,7 +49,7 @@ const Impact = () => {
             <div>VALUING VALUES: CHANGING THE LENS & LANGUAGE</div>
             <div className='w-1/5 h-0.5 border-b-2 lg:border-b-4 mx-auto'></div>
             <div>Read our Dignity Diaries</div>
-            <button className= 'border-2 text-xs min-[320px]:py-1 min-[320px]:px-3 md:px-3 rounded-md lg:w-28 lg:p-2  mx-auto lg:text-2xl lg:rounded-xl hover:bg-red-500'>Visit</button>
+            <Link className= 'border-2 text-xs min-[320px]:py-1 min-[320px]:px-3  md:px-3 rounded-md lg:w-28 lg:p-2   mx-auto lg:text-2xl lg:rounded-xl hover:bg-red-500' to='/dignitydiaries/'>Visit</Link>
           </div>
       
         </div>
@@ -58,7 +59,7 @@ const Impact = () => {
           <div className='flex flex-row items-center flex-wrap justify-center'>
             {
               dataa1.map((img) => {
-                return <Box {...img} />
+                return <Box key={img.id} {...img} />
               })
             }
           </div>

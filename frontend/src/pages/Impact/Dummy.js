@@ -29,7 +29,7 @@ const Dummy = () => {
     <div className='overflow-hidden'>
         <Navbar />
         <div className='w-full h-28 md:h-52 bg-[#212938] scale-125 text-lg text-white mt-10' ></div>
-        <div className='absolute top-20 md:top-40 w-full mx-auto flex items-center justify-center   text-white md:text-4xl leading-9 font-medium'>
+        <div className='absolute top-20 md:top-36 px-4 text-center lg:text-3xl w-full mx-auto flex items-center justify-center   text-white md:text-xl leading-9 font-medium'>
             {item.title}
         </div>
         <div className='  md:p-10'>

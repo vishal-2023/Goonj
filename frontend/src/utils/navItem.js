@@ -1351,14 +1351,6 @@ export const GoonjImg=[
 
 ]
 
-const Fellowdata=[
-    {
-        id:1,
-        imgdata:"https://goonj.org/wp-content/uploads/2022/04/Goonj-fellowship-3.jpg",
-        title:"Goonj Urban Fellowship",
-        data:"Goonj Urban Fellowship started with the aim to provide urban youth, usually isolated from the rural realities, exposure to the issues of urban and rural India some amazing work in rural India. Our aim was also to stand with them, nudging for their capacity building, fundraising and cross learning work, in a year long journey."
-    }
-]
 
 export const carrerdata = [
     {
@@ -2438,32 +2430,32 @@ export const NavHome=[
     {
         id:1,
         img:"https://goonj.org/wp-content/uploads/2023/12/GoonjRahat_Michaung-New.jpg",
-        link:"",
+        link:"/support-covid-19-affected/",
     },
     {
-        id:1,
+        id:2,
         img:"https://goonj.org/wp-content/uploads/2023/01/AR-website-banner-1.jpg",
-        link:"",
+        link:"/dignitydiaries/",
     },
     {
-        id:1,
+        id:3,
         img:"https://goonj.org/wp-content/uploads/2022/11/GARRD-slider.jpg",
-        link:"",
+        link:"/garrd/",
     },
     {
-        id:1,
+        id:4,
         img:"https://goonj.org/wp-content/uploads/2023/11/ODZ-Slider-on-Home-page-min-1536x560.png",
-        link:"",
+        link:"/odz-2023/",
     },
     {
-        id:1,
+        id:5,
         img:"https://goonj.org/wp-content/uploads/2023/05/Chaupal-2023-Header-for-webpage-shorta.jpg",
-        link:"",
+        link:"/chaupal2023/",
     },
     {
-        id:1,
+        id:6,
         img:"https://goonj.org/wp-content/uploads/2023/04/DD-homepage-slider-2.jpg",
-        link:"",
+        link:"/dignitydiaries/",
     },
 
 ]
@@ -2516,13 +2508,16 @@ export const dataa=[
     {
       id:1,
       img: "https://goonj.org/wp-content/uploads/2023/11/Chaupal-2023-Mumbai-580x580.jpeg",
+      link:"/chaupal2023/",
     },
     {
       id:2,
       img:"https://goonj.org/wp-content/uploads/2023/11/Junoon-extension.jpg",
+      link:"/joy-of-giving-2023/",
     },
     {
       id:3,
       img:"https://goonj.org/wp-content/uploads/2023/10/Web-header-JGW-Page-580x608.jpg",
+      link:"/garrd/",
     }
   ]

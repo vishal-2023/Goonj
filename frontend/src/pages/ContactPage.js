@@ -31,7 +31,7 @@ const ContactPage = () => {
   return (
     <div>
         <Navbar/>
-        <img className='pt-14 md:h-72 w-full shadow-lg' src='https://goonj.org/wp-content/uploads/2018/05/Banner_ContactUs.png' alt='' />
+        <img className='pt-14 lg:h-72  w-full shadow-lg' src='https://goonj.org/wp-content/uploads/2018/05/Banner_ContactUs.png' alt='' />
         <div className='lg:w-9/12 pb-3 lg:pb-0 mt-7 mx-5 shadow-lg md:text-lg text-sm font-medium  flex flex-wrap flex-row gap-4'>
           {
             AddressData.map((item)=>{

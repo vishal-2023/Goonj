@@ -2,15 +2,14 @@ import React from 'react'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
 import {WaterData} from '../../utils/navItem'
-import { FaArrowRight } from 'react-icons/fa'
 import { Link } from 'react-router-dom' 
 
 const Water = () => {
   return (
     <div className='overflow-hidden w-full'>
         <Navbar/>
-        <img className='w-full md:h-96 bg-clip-content	  mt-3' src='https://goonj.org/wp-content/themes/charity-ngo-child/img/impact/water-banner.png' alt='' />
-        <div className='absolute top-20 text-lg md:top-32 w-full mx-auto flex items-center justify-center   text-white md:text-4xl leading-9 font-medium'>Water</div>
+        <img className='w-full md:h-96 bg-clip-content	  mt-0' src='https://goonj.org/wp-content/themes/charity-ngo-child/img/impact/water-banner.png' alt='' />
+        <div className='absolute top-28 text-lg md:top-32 w-full mx-auto flex items-center justify-center   text-white md:text-4xl leading-9 font-medium'>Water</div>
         <div className='w-full h-full lg:m-3 flex flex-col lg:flex-row gap-1/2'>
             <div className='lg:w-2/3 md:w-8/12 mx-auto'>
                 {

@@ -7,6 +7,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import CubeComponent from '../components/CubeComponent';
+import { Link } from 'react-router-dom';
 
 // Import your Loader component here
 //import Loader from '../components/Loader'; // Adjust the path as needed
@@ -37,8 +38,8 @@ const HomePage = () => {
     // Simulate data loading
     setTimeout(() => {
       setIsLoading(false); // Set loading to false after data is loaded
-    }, 2000);
-  }, []);
+    }, 400);
+  },[]);
 
   return (
     <div className='overflow-hidden'>
@@ -50,9 +51,9 @@ const HomePage = () => {
             <div className=' w-full mt-14 md:mt-16 mx-auto h-full   md:mb-10'>
               <Slider {...settings}>
                 {NavHome.map((props) => (
-                  <div key={props.id} className='w-full  h-32  md:h-[22rem]  lg:h-[28rem] xl:h-[34rem] shadow-lg '>
+                  <Link to={props.link} key={props.id} className='w-full  h-32  md:h-[22rem]  lg:h-[28rem] xl:h-[34rem] shadow-lg '>
                     <img className='w-full h-full md:w-full md:h-full mx-auto md:px-5 ' src={props.img} alt=''/>                        
-                  </div>
+                  </Link>
                 ))}
               </Slider>
             </div>
