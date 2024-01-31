@@ -16,7 +16,7 @@ export const ContentData = () => {
   return (
     <div className='w-full md:w-10/12 gap-3 mt-5  p-5 leading-4  text-xs text-wrap lg:font-medium md:p-4 mx-auto  h-full flex flex-col md:items-center md:gap-4 md:justify-center md:text-base lg:text-xl md:text-center md:leading-7 flex-wrap '>
         <p>Goonj aims to build an equitable relationship of strength, sustenance and dignity between the cities and villages using the under-utilized urban material as a tool to trigger development with dignity, across the country.</p>
-       <p>You too have a stake in this collective responsibility. Click here to contribute.</p>
+       <p>You too have a stake in this collective responsibility.<Link className='text-red-500 italic' to='/donate/'> Click here </Link>  to contribute.</p>
     </div>
   )
 }
@@ -42,7 +42,7 @@ const HomePage = () => {
   },[]);
 
   return (
-    <div className='overflow-hidden'>
+    <div className='overflow-hidden w-full h-full'>
         <Navbar/>
         {isLoading ? (
           <CubeComponent/>
