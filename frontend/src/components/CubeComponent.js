@@ -4,8 +4,13 @@ import './CubeComponent.css';
 
 const CubeComponent = () => {
   return (
-    <div className='w-screen h-screen pt-32 bg-slate-800'>
-      <div className="custom-loader mx-auto "></div>
+    <div className='w-screen center-body h-screen  bg-[#202628] '>
+      <div class="loader-shape-8">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
     </div>
     
   )

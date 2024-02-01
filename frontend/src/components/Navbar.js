@@ -75,14 +75,14 @@ export const Navbar = () => {
     
     <div className='flex border-b fixed z-50 mb-2 flex-col bg-white w-full '>
       <div className='w-full    bg-inherit   p-1'>
-        <div className='box-border md:h-12 text-xs md:text-sm lg:text-base w-full lg:w-12/13 md:p-4 border-0 flex flex-row items-center mx-auto justify-between'>
+        <div className= 'box-border md:h-12 text-xs md:text-xs lg:text-base w-full lg:w-12/13 md:p-4 border-0 flex flex-row items-center mx-auto justify-between'>
           <div >
             <NavLink to="/">
               <img className=' w-20 lg:p-2 lg:w-24 h-12 md:h-full ' src='https://goonj.org/wp-content/uploads/2020/06/Goonj-logo-10June20.png' alt='img' />
             </NavLink>
           </div>
           <div className='hidden md:block'>
-            <ul className='flex flex-row  items-center  z-40  lg:text-base justify-center  font-semibold gap-4  lg:gap-6'>
+            <ul className='flex flex-row  items-center  z-40  lg:text-base justify-center  font-semibold gap-4 md:gap-3  lg:gap-6'>
               <li className='relative h-16  flex flex-col items-center justify-center' onMouseEnter={handleMouseOver} onMouseLeave={handleMouseOut}>  
                 
                 <NavLink className='block '>About us</NavLink>

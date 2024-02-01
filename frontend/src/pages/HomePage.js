@@ -38,7 +38,7 @@ const HomePage = () => {
     // Simulate data loading
     setTimeout(() => {
       setIsLoading(false); // Set loading to false after data is loaded
-    }, 400);
+    }, 1000);
   },[]);
 
   return (

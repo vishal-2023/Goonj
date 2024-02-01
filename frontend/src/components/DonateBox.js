@@ -4,15 +4,15 @@ import { FaRupeeSign } from 'react-icons/fa'
 const DonateBox = (props) => {
 
     const [selectedOption, setSelectedOption] = useState(null);
+    const [option, setOption] = useState('');
 
     const handleOptionClick = (option) => {
         setSelectedOption(option);
     };
 
-    const [option,setOption] =useState('');
-    const handleOption= (e)=>{
-        setOption(e);
-    }
+    const ColorhandleOption= (value)=>{
+        setOption(value);
+    };
 
     const handleAlert = () => {
         alert(`Selected Option: ${selectedOption}, Custom Amount: ${option}\nYour amount ${option} Received`);
@@ -49,9 +49,12 @@ const DonateBox = (props) => {
 
         <div className='flex flex-col gap-2 pb-3 border-2 bg-[#ededed] rounded-md'>
             <div className='flex flex-row justify-between p-3 '>
-                <button className={`p-3 min-[425px]:px-10 rounded-md bg-white ${option === 2000 ? 'bg-blue-200' : ''}`} onClick={()=>handleOption(2000)}>2000</button>
-                <button className={`p-3 min-[425px]:px-10 rounded-md bg-white ${option === 4000 ? 'bg-blue-200' : ''}`} onClick={()=>handleOption(4000)}>4000</button>
-                <button className={`p-3 min-[425px]:px-10 rounded-md bg-white ${option === 10000 ? 'bg-blue-200' : ''}`} onClick={()=>handleOption(10000)}>10000</button>
+                <button className={`p-3 min-[425px]:px-10 rounded-md bg-white ${option === '2000' ? 'bg-green-300' : ''}`} 
+                onClick={() => ColorhandleOption('2000')}>2000</button>
+                <button className={`p-3 min-[425px]:px-10 rounded-md bg-white ${option === '4000' ? 'bg-green-200' : ''}`} 
+                onClick={() => ColorhandleOption('4000')}>4000</button>
+                <button className={`p-3 min-[425px]:px-10 rounded-md bg-white ${option === '10000' ? 'bg-green-200' : ''}`} 
+                onClick={() => ColorhandleOption('10000')}>10000</button>
             </div>
             <div className='flex flex-row justify-between mx-3 ' >
                 <button className=' p-1 min-[425px]:px-5 text-sm rounded-md bg-white'><FaRupeeSign/></button>
