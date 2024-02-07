@@ -71,3 +71,40 @@
 
     }
    }
+
+
+   
+  /* CSS */
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slideInFromLeft-animation {
+  animation: slideInFromLeft 0.5s ease-out;
+}
+
+/* CSS */
+.border-pulse-animation {
+  
+  /* Initial border color */
+  animation: borderPulse 2s ease-in-out infinite;
+}
+
+@keyframes borderPulse {
+  0% {
+    border-color: paleturquoise; /* Start with red border */
+  }
+  50% {
+    border-color: rgb(207, 110, 207); /* Change to green border */
+  }
+  100% {
+    border-color: skyblue; /* Return to red border */
+  }
+}

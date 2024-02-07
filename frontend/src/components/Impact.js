@@ -14,11 +14,11 @@ export const Award = (props) => {
             `url(${props.img})`
         }}>
 
-          <div className='absolute text-sm mx-4 py-6 px-1 md:mx-10  text-white border-4 md:p-5 text-center md:text-base lg:text-2xl flex flex-col gap-3 md:leading-10 flex-wrap text-wrap md:py-20 rounded-xl font-bold'>
+          <div className='absolute border-pulse-animation text-sm mx-4 py-6 px-1 md:mx-10  text-white border-4 md:p-5 text-center md:text-base lg:text-2xl flex flex-col gap-3 md:leading-10 flex-wrap text-wrap md:py-20 rounded-xl font-bold typing-animation'>
             <div>Awards and Recognitions</div>
             <div>Over the span of almost 2 decades, Goonj has won both National and International attention and </div>
             <div>recognition for its extensive work on non-issues and sustainable innovation.</div>
-            <Link className='border px-4 py-1 md:w-40 hover:bg-red-500 mx-auto' to='/milestones/'> Read me </Link>
+            <Link className='border px-4 py-1 md:w-40 hover:bg-red-500 mx-auto animate-bounce hover:animate-none' to='/milestones/'> Read me </Link>
 
           </div>
         </div>
@@ -36,7 +36,9 @@ const Impact = () => {
         <div className='w-11/12 flex  flex-row items-center justify-center gap-4 flex-wrap my-4  md:my-8 mx-auto'>
           {
             dataa.map( (info) => {
-              return <Card key={info.id} {...info} />
+              return <div key={info.id} className='transition-opacity duration-500 ease-in-out'>
+                <Card  {...info} />
+              </div> 
             })
           }
         </div>
@@ -56,7 +58,7 @@ const Impact = () => {
 
         <div className='flex flex-col bg-[#fffcfc] flex-wrap items-center justify-center'>
           <div className='md:text-2xl mt-5 text-lg font-semibold md:mt-6 md:mb-3'>What's New..</div>
-          <div className='flex flex-row items-center flex-wrap justify-center'>
+          <div className=' flex flex-row items-center flex-wrap justify-center'>
             {
               dataa1.map((img) => {
                 return <Box key={img.id} {...img} />
@@ -73,3 +75,4 @@ const Impact = () => {
 }
 
 export default Impact;
+

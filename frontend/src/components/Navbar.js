@@ -82,7 +82,7 @@ export const Navbar = () => {
             </NavLink>
           </div>
           <div className='hidden md:block'>
-            <ul className='flex flex-row  items-center  z-40  lg:text-base justify-center  font-semibold gap-4 md:gap-3  lg:gap-6'>
+            <ul className='flex flex-row  items-center  z-40  lg:text-base justify-center  font-semibold gap-4 md:gap-3  xl:gap-6'>
               <li className='relative h-16  flex flex-col items-center justify-center' onMouseEnter={handleMouseOver} onMouseLeave={handleMouseOut}>  
                 
                 <NavLink className='block '>About us</NavLink>
@@ -139,16 +139,16 @@ export const Navbar = () => {
           </div>
           
           <div className=' flex flex-row gap-3 items-center justify-center'>
-            <div className='hidden md:hidden lg:block'>
+            <div className='hidden md:hidden xl:block'>
               <NavLink> <FaSearch/> </NavLink>
             </div>
-            <div className='md:hidden lg:block'>
+            <div className='md:hidden xl:block'>
               <NavLink to="https://www.facebook.com/goonj.org"> <FaFacebook/> </NavLink>
             </div>
-            <div className=' md:hidden lg:block'>  
+            <div className=' md:hidden xl:block'>  
               <NavLink to="https://www.instagram.com/goonj/"> <FaInstagram/> </NavLink>
             </div>
-            <div className=' md:hidden lg:block'> 
+            <div className=' md:hidden xl:block'> 
               <NavLink to="https://twitter.com/goonj"> <FaTwitter/> </NavLink>
             </div>
             <div className='md:hidden lg:block'>  

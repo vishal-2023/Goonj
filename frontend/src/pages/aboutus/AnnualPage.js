@@ -15,10 +15,10 @@ const AnnualPage = () => {
         <Link to="https://drive.google.com/file/d/1u3stEh7_ZVsKem0m1ARZn1yOzbiqwK4j/view">
             <img className='m-1/2 w-full h-full mx-auto lg:w-[1050px] lg:h-[500px] p-4' src='https://goonj.org/wp-content/uploads/2023/01/AR-website-banner.jpg' alt=''/>
         </Link>
-        <div className='w-full flex flex-wrap  flex-row gap-3 '>
+        <div className='w-11/12 mx-auto flex flex-wrap xl:flex-nowrap   flex-row gap-3 '>
             {
                 Cardsave.map((item) => {
-                    return <Save id={item.id} className='flex flex-wrap  flex-row' {...item}/>
+                    return <Save id={item.id} className='flex   flex-row' {...item}/>
                  })
             }    
         </div>
